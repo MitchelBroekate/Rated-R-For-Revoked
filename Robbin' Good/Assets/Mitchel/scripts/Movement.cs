@@ -4,20 +4,29 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
-    public float vertMove;
-    public float horizMove;
     public float moveSpeed;
-    public Vector3 moveDirection;
 
+    public Transform orientation;
+
+     public float hor;
+    public float vert;
+    Vector3 moveDirection;
+
+    Rigidbody rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        rb.freezeRotation = true;
+    }
+
+    private void MyInput()
+    {
+        hor = Input.GetAxisRaw("Horizontal");
+        vert = Input.GetAxisRaw("Vertical");
+    }
     void Update()
     {
-        horizMove = Input.GetAxis("Horizontal");
-        vertMove = Input.GetAxis("Vertical");
 
-        moveDirection.x = horizMove;
-        moveDirection.z = vertMove;
-
-        transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
     }
 }
