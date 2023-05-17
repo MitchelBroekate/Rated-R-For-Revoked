@@ -7,23 +7,27 @@ public class Movement : MonoBehaviour
 {
     public Transform orientation;
 
+    [Header("Move Controls")]
+    public float moveSpeed;
+    public float walkSpeed;
+    public float sprintSpeed;
+    public float groundDrag;
+    public float hor;
+    public float vert;
+
     [Header("Ground check")]
     public float playerHeight;
     public LayerMask WhatIsGround;
     bool grounded;
 
-    [Header("Movement")]
-    private float moveSpeed;
-    public float walkSpeed;
-    public float sprintSpeed;
-
-    public float groundDrag;
-
-    public float hor;
-    public float vert;
+    [Header("Crouch")]
+    public float crouchSpeed;
+    public float crouchYScale;
+    private float startYScale;
 
     [Header("keybinds")]
     public KeyCode sprintKey = KeyCode.LeftShift;
+    public KeyCode crouchKey = KeyCode.LeftControl;
 
     Vector3 moveDirection;
 
@@ -35,13 +39,14 @@ public class Movement : MonoBehaviour
     {
         walking,
         sprinting,
-        air
+        crouching
     }
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+        startYScale = transform.localScale.y;
     }
 
     void Update()
@@ -69,10 +74,27 @@ public class Movement : MonoBehaviour
     {
         hor = Input.GetAxisRaw("Horizontal");
         vert = Input.GetAxisRaw("Vertical");
+
+        if(Input.GetKey(crouchKey))
+        {
+            transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
+            rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
+        }
+
+        if (Input.GetKeyUp(crouchKey))
+        {
+            transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
+        }
     }
 
     private void StateHandeler()
     {
+        if(Input.GetKey(crouchKey))
+        {
+            state = MovementState.crouching;
+            moveSpeed = crouchSpeed;
+        }
+
         if(grounded && Input.GetKey(sprintKey))
         {
             state = MovementState.sprinting;
@@ -83,11 +105,6 @@ public class Movement : MonoBehaviour
         {
             state = MovementState.walking;
             moveSpeed = walkSpeed;
-        }
-
-        else
-        {
-            state = MovementState.air;
         }
     }
 

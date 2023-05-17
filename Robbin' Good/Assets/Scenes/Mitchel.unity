@@ -574,7 +574,7 @@ GameObject:
   - component: {fileID: 1486877364}
   - component: {fileID: 1486877363}
   - component: {fileID: 1486877362}
-  m_Layer: 3
+  m_Layer: 10
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -724,16 +724,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orientation: {fileID: 1809920401}
-  playerHeight: 2
-  WhatIsGround:
-    serializedVersion: 2
-    m_Bits: 8
+  moveSpeed: 0
   walkSpeed: 7
-  sprintSpeed: 10
+  sprintSpeed: 20
   groundDrag: 5
   hor: 0
   vert: 0
+  playerHeight: 2
+  WhatIsGround:
+    serializedVersion: 2
+    m_Bits: 1032
+  crouchSpeed: 6
+  crouchYScale: 0.5
   sprintKey: 304
+  crouchKey: 306
   state: 0
 --- !u!1 &1809920400
 GameObject:
