@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class Movement : MonoBehaviour
 {
@@ -12,15 +13,30 @@ public class Movement : MonoBehaviour
     bool grounded;
 
     [Header("Movement")]
-    public float moveSpeed;
+    private float moveSpeed;
+    public float walkSpeed;
+    public float sprintSpeed;
+
     public float groundDrag;
 
     public float hor;
     public float vert;
 
+    [Header("keybinds")]
+    public KeyCode sprintKey = KeyCode.LeftShift;
+
     Vector3 moveDirection;
 
     Rigidbody rb;
+
+    public MovementState state;
+
+    public enum MovementState
+    {
+        walking,
+        sprinting,
+        air
+    }
 
     private void Start()
     {
@@ -42,6 +58,7 @@ public class Movement : MonoBehaviour
 
         MyInput();
         SpeedControl();
+        StateHandeler();
     }
     private void FixedUpdate()
     {
@@ -52,6 +69,26 @@ public class Movement : MonoBehaviour
     {
         hor = Input.GetAxisRaw("Horizontal");
         vert = Input.GetAxisRaw("Vertical");
+    }
+
+    private void StateHandeler()
+    {
+        if(grounded && Input.GetKey(sprintKey))
+        {
+            state = MovementState.sprinting;
+            moveSpeed = sprintSpeed;
+        }
+
+        else if (grounded)
+        {
+            state = MovementState.walking;
+            moveSpeed = walkSpeed;
+        }
+
+        else
+        {
+            state = MovementState.air;
+        }
     }
 
     private void MovePlayer()
