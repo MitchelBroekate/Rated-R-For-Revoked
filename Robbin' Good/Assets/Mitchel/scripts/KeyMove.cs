@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class Movement : MonoBehaviour
+public class KeyMove : MonoBehaviour
 {
     public Transform orientation;
+    private float moveSpeed;
+    Vector3 moveDirection;
+    Rigidbody rb;
 
     [Header("Move Controls")]
-    public float moveSpeed;
     public float walkSpeed;
     public float sprintSpeed;
     public float groundDrag;
@@ -28,10 +30,6 @@ public class Movement : MonoBehaviour
     [Header("keybinds")]
     public KeyCode sprintKey = KeyCode.LeftShift;
     public KeyCode crouchKey = KeyCode.LeftControl;
-
-    Vector3 moveDirection;
-
-    Rigidbody rb;
 
     public MovementState state;
 
@@ -67,18 +65,21 @@ public class Movement : MonoBehaviour
     }
     private void FixedUpdate()
     {
+
+
         MovePlayer();
     }
 
     private void MyInput()
     {
-        hor = Input.GetAxisRaw("Horizontal");
-        vert = Input.GetAxisRaw("Vertical");
 
-        if(Input.GetKey(crouchKey))
+        hor = Input.GetAxis("Horizontal");
+        vert = Input.GetAxis("Vertical");
+
+        if(Input.GetKeyDown(crouchKey))
         {
             transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
-            rb.AddForce(Vector3.down * 5f, ForceMode.Impulse);
+            rb.AddForce(Vector3.down * 2.5f, ForceMode.Impulse);
         }
 
         if (Input.GetKeyUp(crouchKey))
@@ -89,19 +90,20 @@ public class Movement : MonoBehaviour
 
     private void StateHandeler()
     {
+
         if(Input.GetKey(crouchKey))
         {
             state = MovementState.crouching;
             moveSpeed = crouchSpeed;
         }
 
-        if(grounded && Input.GetKey(sprintKey))
+        else if(grounded && Input.GetKey(sprintKey))
         {
             state = MovementState.sprinting;
             moveSpeed = sprintSpeed;
         }
 
-        else if (grounded)
+        else if(grounded)
         {
             state = MovementState.walking;
             moveSpeed = walkSpeed;
