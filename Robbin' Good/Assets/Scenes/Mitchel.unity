@@ -230,7 +230,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 389455803}
-  - component: {fileID: 389455802}
   - component: {fileID: 389455801}
   m_Layer: 0
   m_Name: cam
@@ -252,18 +251,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraPosition: {fileID: 1072063254}
---- !u!114 &389455802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 389455800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf29744e5a9b5f943873ac28325d868a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &389455803
 Transform:
   m_ObjectHideFlags: 0
@@ -1047,8 +1034,6 @@ MonoBehaviour:
   crouchYScale: 0.5
   sprintKey: 304
   crouchKey: 306
-  leanLeftKey: 113
-  leanRightKey: 101
   state: 0
 --- !u!143 &1670052620
 CharacterController:
