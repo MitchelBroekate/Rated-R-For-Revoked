@@ -19,9 +19,9 @@ public class SettingsMenuScript : MonoBehaviour
 
     public void Start()
     {
-        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", 0.75f);
-        sfxSlider.value = PlayerPrefs.GetFloat("MusicVolume", 0.75f);
-        dialogueSlider.value = PlayerPrefs.GetFloat("MusicVolume", 0.75f);
+        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1f);
+        sfxSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1f);
+        dialogueSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1f);
 
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
@@ -31,7 +31,7 @@ public class SettingsMenuScript : MonoBehaviour
         {
             string option = resolutions[i].width + " x " + resolutions[i].height;
             options.Add(option);
-            if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
+            if (resolutions[i].width == Screen.width && resolutions[i].height == Screen.height)
             {
                 currentResolutionIndex = i;
             }
