@@ -45,7 +45,21 @@ public class PauseMenuScript : MonoBehaviour
 
     public void SettingsMenu()
     {
-        settingsMenuUI.SetActive(true);
+
+        bool settingsMenu = false;
+
+        if (settingsMenu == false)
+        {
+            settingsMenuUI.SetActive(true);
+            pauseMenuUI.SetActive(false);
+            settingsMenu = true;
+        }
+        else
+        {
+            settingsMenuUI.SetActive(false);
+            settingsMenu = false;
+            
+        }
     }
 
     public void QuitGame()
