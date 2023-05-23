@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Intercation : MonoBehaviour
 {
+    RaycastHit hit;
 
     void Start()
     {
@@ -12,6 +13,9 @@ public class Intercation : MonoBehaviour
 
     void Update()
     {
-        if (Physics.Raycast(transform.position, Vector3.forward, )) ;
+        if (Physics.Raycast(transform.position, Vector3.forward, out hit, 1000))
+        {
+
+        }
     }
 }
