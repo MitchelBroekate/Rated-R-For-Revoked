@@ -7,15 +7,7 @@ public class Peaking : MonoBehaviour
     Vector3 posLeft;
     Vector3 posRight;
     Vector3 posCurrent;
- public void Start()
-    {
-        posLeft = transform.position;
-        posRight = transform.position;
-        posCurrent = transform.position;
 
-        posLeft.x = 0.658f;
-        posRight.x = -0.658f;
-    }
     public float lerpTime = 0.15f;
 
     [Header("Keybindes")]
