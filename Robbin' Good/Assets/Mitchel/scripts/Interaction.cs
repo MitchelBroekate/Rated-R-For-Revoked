@@ -26,13 +26,14 @@ public class Interaction : MonoBehaviour
             {
                 if(Input.GetKey(interact))
                 {
-                   hit.transform.gameObject.SetActive(false);
+                    hit.transform.gameObject.SetActive(false);
                 }
                 
             }
+
         }
 
-        if(pickUps.activeInHierarchy == false)
+        if (pickUps.activeInHierarchy == false)
         {
             gun.SetActive(true);
         }
