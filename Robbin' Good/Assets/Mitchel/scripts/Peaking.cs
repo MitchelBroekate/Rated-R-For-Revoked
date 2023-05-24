@@ -8,6 +8,11 @@ public class Peaking : MonoBehaviour
     Vector3 posRight;
     Vector3 posCurrent;
 
+    Vector3 rotIdle;
+    Vector3 rotRight;
+    Vector3 rotLeft;
+
+    
     public float lerpTime = 0.15f;
 
     [Header("Keybindes")]
@@ -16,6 +21,8 @@ public class Peaking : MonoBehaviour
 
     void Update()
     {
+        
+
 
         if (Input.GetKey(keyPeakRight))
         {
