@@ -1,11 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Intercation : MonoBehaviour
+public class Interaction : MonoBehaviour
 {
     RaycastHit hit;
 
+    [Header("Transforms")]
+    public GameObject pickUps;
+    public GameObject gun;
+
+    [Header("Keybind")]
+    public KeyCode interact = KeyCode.F;
     void Start()
     {
         
@@ -13,9 +20,21 @@ public class Intercation : MonoBehaviour
 
     void Update()
     {
-        if (Physics.Raycast(transform.position, Vector3.forward, out hit, 1000))
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 2))
         {
+            if(hit.transform.gameObject.tag == "Interactable")
+            {
+                if(Input.GetKey(interact))
+                {
+                   hit.transform.gameObject.SetActive(false);
+                }
+                
+            }
+        }
 
+        if(pickUps.activeInHierarchy == false)
+        {
+            gun.SetActive(true);
         }
     }
 }

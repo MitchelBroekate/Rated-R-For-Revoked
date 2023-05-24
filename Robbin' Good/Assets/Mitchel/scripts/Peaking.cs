@@ -8,7 +8,7 @@ public class Peaking : MonoBehaviour
     Vector3 posRight;
     Vector3 posCurrent;
 
-    Vector3 rotIdle;
+    Vector3 rotCurrent;
     Vector3 rotRight;
     Vector3 rotLeft;
 
@@ -21,8 +21,6 @@ public class Peaking : MonoBehaviour
 
     void Update()
     {
-        
-
 
         if (Input.GetKey(keyPeakRight))
         {
