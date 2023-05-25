@@ -20,8 +20,8 @@ public class SettingsMenuScript : MonoBehaviour
     public void Start()
     {
         musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1f);
-        sfxSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1f);
-        dialogueSlider.value = PlayerPrefs.GetFloat("MusicVolume", 1f);
+        sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume", 1f);
+        dialogueSlider.value = PlayerPrefs.GetFloat("DialogueVolume", 1f);
 
         resolutions = Screen.resolutions;
         resolutionDropdown.ClearOptions();
@@ -56,13 +56,13 @@ public class SettingsMenuScript : MonoBehaviour
     public void SetSFX(float sliderValue)
     {
         audioMixer.SetFloat("SFXVol", Mathf.Log10(sliderValue) * 20);
-        PlayerPrefs.SetFloat("MusicVolume", sliderValue);
+        PlayerPrefs.SetFloat("SFXVolume", sliderValue);
     }
 
     public void SetDialogue(float sliderValue)
     {
         audioMixer.SetFloat("DialogueVol", Mathf.Log10(sliderValue) * 20);
-        PlayerPrefs.SetFloat("MusicVolume", sliderValue);
+        PlayerPrefs.SetFloat("DialogueVolume", sliderValue);
     }
 
     public void SetFullScreen (bool isFullScreen)

@@ -4,24 +4,32 @@ using UnityEngine;
 
 public class ChangeMusic : MonoBehaviour
 {
-    [Header("Checks")]
-    public bool synthCheck = false;
-    public bool electroCheck = false;
-
-    [Header("Game Objects")]
-    public GameObject musicSynth;
-    public GameObject musicElectro;
+    public int musicGenre = 0;
+    public GameObject synthMusic;
+    public GameObject electroMusic;
 
     // Update is called once per frame
     void Update()
     {
-        if (synthCheck == false)
+        if (musicGenre > 1)
         {
-            musicElectro.SetActive(true);
+            musicGenre = 0;
+        }
+
+        if (musicGenre == 1)
+        {
+            electroMusic.SetActive(true);
+            synthMusic.SetActive(false);
         }
         else
         {
-            musicSynth.SetActive(false);
+            synthMusic.SetActive(true);
+            electroMusic.SetActive(false);
         }
+    }
+
+    public void ChangeGenre()
+    {
+        musicGenre += 1;
     }
 }
