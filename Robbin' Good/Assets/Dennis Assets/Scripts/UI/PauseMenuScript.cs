@@ -33,6 +33,7 @@ public class PauseMenuScript : MonoBehaviour
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        settingsMenu = false;
         Cursor.lockState = CursorLockMode.Locked;
     }
 
