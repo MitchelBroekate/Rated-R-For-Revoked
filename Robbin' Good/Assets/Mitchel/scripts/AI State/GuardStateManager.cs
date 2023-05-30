@@ -10,6 +10,9 @@ public class GuardStateManager : MonoBehaviour
     GuardCautionState GuardCautionState = new GuardCautionState();
     GuardSearchState GuardSearchState = new GuardSearchState();
     GuardAlertState guardAlertState = new GuardAlertState();
+
+    NavMeshAgent agent;
+    public Transform[] checkPoints;
     void Start()
     {
         currentState = patrolState;
