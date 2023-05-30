@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.AI;
 public class GuardPatrolState : GuardBaseState
 {
     public override void EnterState(GuardStateManager guard)

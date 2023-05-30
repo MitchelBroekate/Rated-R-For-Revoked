@@ -4,15 +4,6 @@ using UnityEngine;
 
 public class Peaking : MonoBehaviour
 {
-    Vector3 posLeft;
-    Vector3 posRight;
-    Vector3 posCurrent;
-
-    Vector3 rotCurrent;
-    Vector3 rotRight;
-    Vector3 rotLeft;
-
-    
     public float lerpTime = 0.15f;
 
     [Header("Keybindes")]
