@@ -7,7 +7,7 @@ public class MainMenuScript : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("MainGame");
+        SceneManager.LoadScene("CargoHold");
     }
 
     public void QuitGame()
