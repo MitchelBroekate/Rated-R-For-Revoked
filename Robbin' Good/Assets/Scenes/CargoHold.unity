@@ -6621,11 +6621,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1407148687}
   songs:
-  - {fileID: 8300000, guid: 8b97d618cc9d62644ace5ee04cb05599, type: 3}
-  - {fileID: 8300000, guid: a1a90d2793bc2864e91ef2eddab2f2ce, type: 3}
-  - {fileID: 8300000, guid: 099fee90ef6f3164e921b2e3ce459441, type: 3}
-  - {fileID: 8300000, guid: 65d77182e7e843341bf1e2687ff5277e, type: 3}
-  - {fileID: 8300000, guid: ddec5eaa5d7524a4c9349e0ae501c422, type: 3}
+  - {fileID: 8300000, guid: 75db1bc8a607af442a7f78337cb5c50a, type: 3}
+  - {fileID: 8300000, guid: b9cc88d135b327549986d466a95e7294, type: 3}
+  - {fileID: 8300000, guid: 586b5b171418e134b8582d864a4a2367, type: 3}
+  - {fileID: 8300000, guid: 585f9d928f2b7cc459b0cef30f38d7ab, type: 3}
+  - {fileID: 8300000, guid: aaac2b43d98bdbf41b263fecfd163516, type: 3}
+  - {fileID: 8300000, guid: 89c0d5be6fb3ec242bd83508b3417e3e, type: 3}
+  - {fileID: 8300000, guid: 29e4f28532ec96f40a7b2600bec95e92, type: 3}
+  - {fileID: 8300000, guid: 1ff865c63108bea439668e5f53d9a9c0, type: 3}
+  - {fileID: 8300000, guid: 378928a394bb3844d9d28a989721bced, type: 3}
+  - {fileID: 8300000, guid: a6432889714aa214eb7120a6849b052c, type: 3}
   volume: 0.5
   trackTimer: 0
 --- !u!82 &1407148687
