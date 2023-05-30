@@ -13,10 +13,16 @@ public class DamageToEnemy : MonoBehaviour
     {
         if (Physics.Raycast(transform.position, transform.forward, out gunHit, 1000))
         {
-            if (Input.GetMouseButtonDown(0) && gun.activeInHierarchy == true && gunHit.transform.TryGetComponent<Health>)
+            if (Input.GetMouseButtonDown(0)  && gun.activeInHierarchy == true)
             {
                 TakeDamage(20);
             }
         }
+    }
+
+
+    void TakeDamage(int damage)
+    {
+      
     }
 }
