@@ -3973,15 +3973,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067076935}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1094292597}
   - {fileID: 1165493808}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1263749155}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1087146729
 GameObject:
@@ -4380,7 +4380,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 375910763398853280, guid: d40bdfa7495bbdb4ebb68ad1618069ed,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 3f97e8791463cee408b1ff9cb8b41c5c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7e7abbacfce980d43b22a78cacc84ccb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4720,7 +4720,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1199469614}
   m_Enabled: 0
-  m_VideoClip: {fileID: 32900000, guid: 0b886b398270f5a4984a56092abf8613, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: d729293d729070146afe7243a87453e3, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 1710521770}
@@ -5220,6 +5220,7 @@ Transform:
   m_Children:
   - {fileID: 1221596310}
   - {fileID: 1199469616}
+  - {fileID: 1067076936}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5877,7 +5878,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1521032327
 GameObject:
