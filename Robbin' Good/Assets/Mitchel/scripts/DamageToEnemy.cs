@@ -1,28 +1,29 @@
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DamageToEnemy : MonoBehaviour
 {
     RaycastHit gunHit;
     public GameObject gun;
-
+    public Health health;
 
     void Update()
     {
-        if (Physics.Raycast(transform.position, transform.forward, out gunHit, 1000))
+        if (Physics.Raycast(transform.position, transform.forward, out gunHit, 100))
         {
-            if (Input.GetMouseButtonDown(0)  && gun.activeInHierarchy == true)
+            if (Input.GetMouseButtonDown(0) && gunHit.transform.gameObject.tag == "Enemy" && gun.activeInHierarchy == true)
             {
-                TakeDamage(20);
+                health = gunHit.transform.gameObject.GetComponent<Health>();
+                DealDamage(1);
             }
         }
     }
 
-
-    void TakeDamage(int damage)
+    void DealDamage(int damage)
     {
-      
+        health.health -= damage;
     }
 }

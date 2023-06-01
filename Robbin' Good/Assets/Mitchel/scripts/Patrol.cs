@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class Patrol : MonoBehaviour
 {
     public Transform[] checkPoints;
-    int destination = 0;
+    public int destination = 0;
     NavMeshAgent  agent;
     void Start()
     {
