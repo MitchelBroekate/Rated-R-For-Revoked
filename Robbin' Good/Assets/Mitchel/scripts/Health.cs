@@ -5,10 +5,6 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public float health = 100f;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
@@ -17,4 +13,11 @@ public class Health : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
+
+    public void DealDamage(int damage)
+    {
+        health -= damage;
+    }
 }
+
+
