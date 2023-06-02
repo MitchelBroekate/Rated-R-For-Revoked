@@ -11,6 +11,15 @@ public class GuardStateManager : MonoBehaviour
     GuardSearchState GuardSearchState = new GuardSearchState();
     GuardAlertState guardAlertState = new GuardAlertState();
 
+    int test = 10;
+    public enum TestEnum
+    {
+        a,
+        b
+    }
+
+    public TestEnum testEnum;
+
     NavMeshAgent agent;
     public Transform[] checkPoints;
     void Start()
@@ -18,8 +27,33 @@ public class GuardStateManager : MonoBehaviour
         currentState = patrolState;
 
         currentState.EnterState(this);
+
+
     }
 
+    public void SetAndCheckState(TestEnum newEnum)
+    {
+        testEnum = newEnum;
+        switch (testEnum)
+        {
+            case TestEnum.a:
+                // do this;
+                break;
+            case TestEnum.b:
+                // do this....
+                break;
+            default:
+                // else
+                break;
+
+        }
+        }
+    }
+    public void TestThing()
+    {
+        //Checks distance
+        SetAndCheckState(TestEnum.b);
+    }
 
     void Update()
     {
