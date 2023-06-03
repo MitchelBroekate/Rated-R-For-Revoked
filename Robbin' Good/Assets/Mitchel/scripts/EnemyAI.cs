@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class EnemyVision : MonoBehaviour
+public class EnemyAI : MonoBehaviour
 {
 
 
