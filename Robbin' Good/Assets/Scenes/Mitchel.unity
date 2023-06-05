@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 124793105}
   - component: {fileID: 124793104}
   - component: {fileID: 124793103}
+  - component: {fileID: 124793107}
   m_Layer: 0
   m_Name: enemy peak
   m_TagString: Untagged
@@ -289,6 +290,27 @@ Transform:
   m_Father: {fileID: 1292155755}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &124793107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124793102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1ab7fdef91f25d419aedbb43e77cc94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewRadius: 6.6
+  viewAngle: 90
+  targetPlayer:
+    serializedVersion: 2
+    m_Bits: 8
+  obstacles:
+    serializedVersion: 2
+    m_Bits: 64
+  player: {fileID: 307659773}
 --- !u!1 &125720440
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,7 +784,7 @@ GameObject:
   - component: {fileID: 307659775}
   - component: {fileID: 307659779}
   - component: {fileID: 307659780}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: capsule
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1195,7 +1217,7 @@ GameObject:
   - component: {fileID: 620637650}
   - component: {fileID: 620637649}
   - component: {fileID: 620637648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1320,7 +1342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 634889308}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PeakLeft
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -1556,7 +1578,7 @@ GameObject:
   - component: {fileID: 989032480}
   - component: {fileID: 989032481}
   - component: {fileID: 989032482}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1621,7 +1643,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989032473}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0.658, z: 0.10999966}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1629,7 +1651,7 @@ Transform:
   - {fileID: 1865397177}
   m_Father: {fileID: 307659778}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!114 &989032477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1991,7 +2013,7 @@ GameObject:
   - component: {fileID: 1128428829}
   - component: {fileID: 1128428832}
   - component: {fileID: 1128428831}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: gun part
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2204,7 +2226,7 @@ GameObject:
   - component: {fileID: 1237728360}
   - component: {fileID: 1237728359}
   - component: {fileID: 1237728358}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: wall 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2658,7 +2680,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1464297802}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PeakRight
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -3211,7 +3233,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1670052616}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -3440,7 +3462,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1809920401}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: orientation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3570,7 +3592,7 @@ GameObject:
   - component: {fileID: 1865397177}
   - component: {fileID: 1865397180}
   - component: {fileID: 1865397179}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
