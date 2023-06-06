@@ -26,6 +26,7 @@ public class EnemyAI : MonoBehaviour
     public Transform[] checkPoints;
     public int destination = 0;
     NavMeshAgent agent;
+    float moveSpeed;
     #endregion
 
     #region enum
@@ -43,26 +44,30 @@ public class EnemyAI : MonoBehaviour
     {
         currentState = GuardStates.Patrol;
 
+        agent = GetComponent<NavMeshAgent>();
+
+        agent.autoBraking = false;
+
+        NextPoint();
+
     }
 
     void Update()
     {
-       
 
         Vector3 playerTarget = player.transform.position - transform.position;
 
-        if (Vector3.Angle(transform.forward, playerTarget) < viewAngle / 2 )
+        if (Vector3.Angle(transform.forward, playerTarget) < viewAngle / 2)
         {
             float distanceToTarget = Vector3.Distance(transform.position, player.transform.position);
             if (distanceToTarget < viewRadius)
             {
-                if(Physics.Raycast(transform.position, playerTarget, distanceToTarget, obstacles) == false)
+                if (Physics.Raycast(transform.position, playerTarget, distanceToTarget, obstacles) == false)
                 {
+                    Vector3 playerDetection = player.transform.position;
                     StopAllCoroutines();
                     coroutine = Detection(3);
                     StartCoroutine(coroutine);
-                    Debug.Log("Holy shieee");
-                    Vector3 playerDetection = player.transform.position;
                 }
             }
             if (distanceToTarget > viewRadius)
@@ -70,6 +75,19 @@ public class EnemyAI : MonoBehaviour
 
             }
         }
+    }
+    #endregion
+
+    #region Checkpoint
+    void NextPoint()
+    {
+        if (checkPoints.Length == 0)
+        {
+            return;
+        }
+        agent.destination = checkPoints[destination].position;
+
+        destination = (destination + 1) % checkPoints.Length;
 
     }
     #endregion
@@ -102,36 +120,18 @@ public class EnemyAI : MonoBehaviour
                 break;
         }
     }
-    #endregion
+        #endregion
 
-    #region IEnumerator
+        #region IEnumerator
     private IEnumerator Detection(float waitTime)
     {
         while (true)
         {
             yield return new WaitForSeconds(waitTime);
 
-            ChangeStateAlert();
+            
         }
     }
     #endregion
 
-    #region ChangeStates
-    void ChangeStatePatrol()
-    {
-
-    }
-    public void ChangeStateCaution()
-    {
-
-    }
-    public void ChangeStateSeen()
-    {
-
-    }
-    public void ChangeStateAlert()
-    {
-
-    }
-    #endregion
 }
