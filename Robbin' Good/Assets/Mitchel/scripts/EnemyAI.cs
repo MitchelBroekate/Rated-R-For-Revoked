@@ -117,7 +117,7 @@ public class EnemyAI : MonoBehaviour
             case GuardStates.Alert:
 
                 Debug.Log("Spotted");
-                agent.destination = playerDetection + ;
+                agent.destination = playerDetection;
 
                 break;
 
