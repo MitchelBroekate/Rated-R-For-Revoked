@@ -5,13 +5,17 @@ using System.Runtime.CompilerServices;
 using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UIElements;
 
 public class EnemyAI : MonoBehaviour
 {
     #region Variables
-    [Header("Vision")]
+    [Header("Vision/State")]
     public float viewRadius;
     public float viewAngle;
+
+     public Vector3 playerDetection;
+    public Vector3 aiDistance;
 
     public LayerMask targetPlayer;
     public LayerMask obstacles;
@@ -48,8 +52,7 @@ public class EnemyAI : MonoBehaviour
 
         agent.autoBraking = false;
 
-        NextPoint();
-
+        SetCheckGuardState(currentState);
     }
 
     void Update()
@@ -64,7 +67,7 @@ public class EnemyAI : MonoBehaviour
             {
                 if (Physics.Raycast(transform.position, playerTarget, distanceToTarget, obstacles) == false)
                 {
-                    Vector3 playerDetection = player.transform.position;
+                    playerDetection = player.transform.position;
                     StopAllCoroutines();
                     coroutine = Detection(3);
                     StartCoroutine(coroutine);
@@ -75,32 +78,32 @@ public class EnemyAI : MonoBehaviour
 
             }
         }
-    }
-    #endregion
 
-    #region Checkpoint
-    void NextPoint()
-    {
-        if (checkPoints.Length == 0)
-        {
-            return;
-        }
-        agent.destination = checkPoints[destination].position;
-
-        destination = (destination + 1) % checkPoints.Length;
-
+        SetCheckGuardState(currentState);
     }
     #endregion
 
     #region Switch
-    public void SetCheckGuardState(GuardStates newEnum)
+    public void SetCheckGuardState(GuardStates states)
     {
-        Enum updatedGuardState = newEnum;
 
-        switch (updatedGuardState)
+        switch (states)
         {
             case GuardStates.Patrol:
+
+                if (checkPoints.Length == 0)
+                {
+                    return;
+                }
+                agent.destination = checkPoints[destination].position;
+
+                destination = (destination + 1) % checkPoints.Length;
+
+                if(currentState != GuardStates.Patrol)
+                {
                 
+                }
+
                 break;
 
             case GuardStates.Caution:
@@ -111,7 +114,10 @@ public class EnemyAI : MonoBehaviour
 
                 break;
 
-            case GuardStates.Alert: 
+            case GuardStates.Alert:
+
+                Debug.Log("Spotted");
+                agent.destination = playerDetection + ;
 
                 break;
 
@@ -129,7 +135,7 @@ public class EnemyAI : MonoBehaviour
         {
             yield return new WaitForSeconds(waitTime);
 
-            
+            currentState = GuardStates.Alert;
         }
     }
     #endregion
