@@ -6524,8 +6524,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -6869,8 +6869,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -6984,8 +6984,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -7232,7 +7232,7 @@ Transform:
   - {fileID: 292247538}
   - {fileID: 697541522}
   - {fileID: 2062108725}
-  - {fileID: 1071203946}
+  - {fileID: 1833973851}
   m_Father: {fileID: 881461369}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7499,8 +7499,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -9008,10 +9008,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_Name
       value: Cargo muur lampen (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
@@ -9427,7 +9437,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
@@ -9479,10 +9489,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_Name
       value: Cargo muur lampen
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
@@ -9749,8 +9769,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -10040,8 +10060,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -10252,10 +10272,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
         type: 3}
       propertyPath: m_Name
       value: Cargo kraan houder lampen (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3c9bb7d65b034e419fd68624ba75e5e, type: 3}
@@ -10782,10 +10812,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
         type: 3}
       propertyPath: m_Name
       value: Cargo kraan houder lampen (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3c9bb7d65b034e419fd68624ba75e5e, type: 3}
@@ -11771,10 +11811,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: 9b666e2ce01b54e428e345a15dc21a73,
         type: 3}
       propertyPath: m_Name
       value: Cargo hoek L
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b666e2ce01b54e428e345a15dc21a73, type: 3}
@@ -12578,10 +12628,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
         type: 3}
       propertyPath: m_Name
       value: Cargo kraan houder lampen
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3c9bb7d65b034e419fd68624ba75e5e, type: 3}
@@ -13173,10 +13233,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
         type: 3}
       propertyPath: m_Name
       value: Cargo kraan houder lampen (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3c9bb7d65b034e419fd68624ba75e5e, type: 3}
@@ -13236,8 +13306,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -13772,8 +13842,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -14425,8 +14495,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -14616,8 +14686,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -14821,8 +14891,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -15181,8 +15251,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
-  m_Range: 5
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -15802,8 +15872,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -16370,7 +16440,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
@@ -16422,10 +16492,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_Name
       value: Cargo muur lampen (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
@@ -16818,8 +16898,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -16893,7 +16973,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
@@ -16945,10 +17025,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_Name
       value: Cargo muur lampen (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
@@ -17121,8 +17211,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -17700,8 +17790,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -23243,10 +23333,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
         type: 3}
       propertyPath: m_Name
       value: Cargo plafond lampen (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
@@ -23525,8 +23625,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -30157,10 +30257,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: e2c37aac149a838409d13e3b781cabe2,
         type: 3}
       propertyPath: m_Name
       value: Cargo muur cr
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2c37aac149a838409d13e3b781cabe2, type: 3}
@@ -31320,8 +31430,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -31780,7 +31890,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
@@ -31832,10 +31942,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_Name
       value: Cargo muur lampen (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
@@ -32113,8 +32233,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -32328,8 +32448,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -38604,8 +38724,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -38745,7 +38865,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
@@ -38797,10 +38917,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_Name
       value: Cargo muur lampen (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
@@ -39922,8 +40052,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -40419,8 +40549,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -40778,8 +40908,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -40843,106 +40973,6 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 129
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1071203945
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 62953051}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 40
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -59.27056
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -59.24837
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -7511558181221131132, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3106b31ab43b417409dc22f0f343d512, type: 2}
-    - target: {fileID: 919132149155446097, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_Name
-      value: Cargo hoek L (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 974496988c9d4fa4bb02a64894501ba8,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 974496988c9d4fa4bb02a64894501ba8, type: 3}
---- !u!4 &1071203946 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1071203945}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1076046400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41005,10 +41035,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
         type: 3}
       propertyPath: m_Name
       value: Cargo plafond lampen (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
@@ -41028,7 +41068,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
@@ -41080,10 +41120,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_Name
       value: Cargo muur lampen (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
@@ -41143,8 +41193,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -41258,8 +41308,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -41870,10 +41920,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
         type: 3}
       propertyPath: m_Name
       value: Cargo plafond lampen
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
@@ -42664,8 +42724,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -43251,8 +43311,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -43656,8 +43716,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -43886,8 +43946,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -44001,8 +44061,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -44703,10 +44763,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
         type: 3}
       propertyPath: m_Name
       value: Cargo plafond lampen (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
@@ -44815,10 +44885,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
         type: 3}
       propertyPath: m_Name
       value: Cargo plafond lampen (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
@@ -46650,10 +46730,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
         type: 3}
       propertyPath: m_Name
       value: Cargo plafond lampen (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
@@ -51771,8 +51861,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -52022,8 +52112,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -52256,7 +52346,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
@@ -52308,10 +52398,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
         type: 3}
       propertyPath: m_Name
       value: Cargo muur lampen (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
@@ -52717,7 +52817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1414851796}
   m_Layer: 0
-  m_Name: Lampen
+  m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52738,7 +52838,6 @@ Transform:
   - {fileID: 732022550}
   - {fileID: 1479462418}
   - {fileID: 292783327}
-  - {fileID: 1417993075}
   - {fileID: 198121072}
   - {fileID: 1076962478}
   - {fileID: 550285260}
@@ -52746,6 +52845,7 @@ Transform:
   - {fileID: 831473500}
   - {fileID: 936049390}
   - {fileID: 507349600}
+  - {fileID: 1417993075}
   - {fileID: 152912915}
   - {fileID: 339890216}
   - {fileID: 238349657}
@@ -52772,7 +52872,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
         type: 3}
@@ -52829,10 +52929,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: ced435df8e4b2de42a668922283e5e90,
         type: 3}
       propertyPath: m_Name
       value: Cargo hoek R
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ced435df8e4b2de42a668922283e5e90, type: 3}
@@ -54101,10 +54211,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: e2c37aac149a838409d13e3b781cabe2,
         type: 3}
       propertyPath: m_Name
       value: Cargo muur cr (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2c37aac149a838409d13e3b781cabe2, type: 3}
@@ -54355,8 +54475,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -54969,8 +55089,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -55454,8 +55574,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -55699,8 +55819,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -56087,8 +56207,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -56612,8 +56732,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -59596,8 +59716,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -59902,8 +60022,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -60264,8 +60384,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -61111,6 +61231,106 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1829350633}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1833973850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 62953051}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -59.27056
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -59.24837
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3106b31ab43b417409dc22f0f343d512, type: 2}
+    - target: {fileID: 919132149155446097, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo hoek L (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 974496988c9d4fa4bb02a64894501ba8,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 974496988c9d4fa4bb02a64894501ba8, type: 3}
+--- !u!4 &1833973851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 974496988c9d4fa4bb02a64894501ba8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1833973850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1834183293
 GameObject:
   m_ObjectHideFlags: 0
@@ -61161,8 +61381,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -61476,8 +61696,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -62090,8 +62310,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -63011,8 +63231,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -63126,8 +63346,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -63756,8 +63976,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -63886,8 +64106,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
-  m_Range: 5
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -64833,10 +65053,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
         type: 3}
       propertyPath: m_Name
       value: Cargo plafond lampen (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
@@ -65328,8 +65558,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -65903,8 +66133,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -71041,8 +71271,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
-  m_Range: 3
+  m_Intensity: 0.25
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -76652,10 +76882,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8ebf2324100d69a419b4b6c50e32fbb8, type: 2}
     - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
         type: 3}
       propertyPath: m_Name
       value: Cargo plafond lampen (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
