@@ -8946,6 +8946,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 147869182}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &152912914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo muur lampen (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
+--- !u!4 &152912915 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 152912914}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &162456488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9342,6 +9417,81 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1001 &198121071
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo muur lampen
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
+--- !u!4 &198121072 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 198121071}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &204987360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10040,6 +10190,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 222103914}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &225659030
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo kraan houder lampen (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3c9bb7d65b034e419fd68624ba75e5e, type: 3}
+--- !u!4 &225659031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 225659030}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &226528104
 GameObject:
   m_ObjectHideFlags: 0
@@ -10495,6 +10720,81 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!1001 &238349656
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo kraan houder lampen (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3c9bb7d65b034e419fd68624ba75e5e, type: 3}
+--- !u!4 &238349657 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 238349656}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &245088185
 GameObject:
   m_ObjectHideFlags: 0
@@ -11404,6 +11704,86 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 292247537}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &292783326
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 59.27056
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -49.24837
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b666e2ce01b54e428e345a15dc21a73,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo hoek L
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9b666e2ce01b54e428e345a15dc21a73, type: 3}
+--- !u!4 &292783327 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9b666e2ce01b54e428e345a15dc21a73,
+    type: 3}
+  m_PrefabInstance: {fileID: 292783326}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &294522248
 GameObject:
   m_ObjectHideFlags: 0
@@ -12136,6 +12516,81 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1001 &339890215
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo kraan houder lampen
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3c9bb7d65b034e419fd68624ba75e5e, type: 3}
+--- !u!4 &339890216 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 339890215}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &350439334
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12656,6 +13111,81 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1001 &362876025
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo kraan houder lampen (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e3c9bb7d65b034e419fd68624ba75e5e, type: 3}
+--- !u!4 &362876026 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e3c9bb7d65b034e419fd68624ba75e5e,
+    type: 3}
+  m_PrefabInstance: {fileID: 362876025}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &366070272
 GameObject:
   m_ObjectHideFlags: 0
@@ -15830,6 +16360,81 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1001 &507349599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo muur lampen (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
+--- !u!4 &507349600 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 507349599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &510855962
 GameObject:
   m_ObjectHideFlags: 0
@@ -16278,6 +16883,81 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 164
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &550285259
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo muur lampen (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
+--- !u!4 &550285260 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 550285259}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &551893746
 GameObject:
   m_ObjectHideFlags: 0
@@ -22501,6 +23181,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606774729}
   m_CullTransparentMesh: 1
+--- !u!1001 &608497680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo plafond lampen (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
+--- !u!4 &608497681 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 608497680}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &610334257
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22633,7 +23388,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &613199895
 PrefabInstance:
@@ -23040,7 +23795,7 @@ Transform:
   - {fileID: 852787163}
   - {fileID: 1664425428}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &629659221
 GameObject:
@@ -29340,6 +30095,81 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1001 &732022549
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo muur cr
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e2c37aac149a838409d13e3b781cabe2, type: 3}
+--- !u!4 &732022550 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+    type: 3}
+  m_PrefabInstance: {fileID: 732022549}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &741069474
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30940,6 +31770,81 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1001 &831473499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo muur lampen (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
+--- !u!4 &831473500 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 831473499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &832560357
 GameObject:
   m_ObjectHideFlags: 0
@@ -31024,7 +31929,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &834806808
 GameObject:
@@ -32117,8 +33022,9 @@ Transform:
   - {fileID: 62953051}
   - {fileID: 1121378408}
   - {fileID: 772390856}
+  - {fileID: 1414851796}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &890875960
 GameObject:
@@ -37829,6 +38735,81 @@ MonoBehaviour:
   musicGenre: 0
   synthMusic: {fileID: 2028667757}
   electroMusic: {fileID: 1407148684}
+--- !u!1001 &936049389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo muur lampen (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
+--- !u!4 &936049390 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 936049389}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &949155351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38774,7 +39755,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &998364766
 GameObject:
@@ -39962,6 +40943,156 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1071203945}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1076046400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo plafond lampen (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
+--- !u!4 &1076046401 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1076046400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1076962477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo muur lampen (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
+--- !u!4 &1076962478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1076962477}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1081170703
 GameObject:
   m_ObjectHideFlags: 0
@@ -40676,6 +41807,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0b85a54193f80034fa1b880965e2d3e1,
     type: 3}
   m_PrefabInstance: {fileID: 1103182424}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1110120681
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo plafond lampen
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
+--- !u!4 &1110120682 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1110120681}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1115065541
 GameObject:
@@ -43435,6 +44641,81 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 119
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1001 &1218827652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo plafond lampen (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
+--- !u!4 &1218827653 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1218827652}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1220296376
 GameObject:
   m_ObjectHideFlags: 0
@@ -43472,6 +44753,81 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1229557439
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo plafond lampen (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
+--- !u!4 &1229557440 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1229557439}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1237079885
 GameObject:
   m_ObjectHideFlags: 0
@@ -45231,6 +46587,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56ac918f415a06f4b96f812cb3adc850,
     type: 3}
   m_PrefabInstance: {fileID: 1296179464}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1299162617
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo plafond lampen (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
+--- !u!4 &1299162618 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1299162617}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1306835458
 GameObject:
@@ -50689,7 +52120,7 @@ Transform:
   - {fileID: 96219035}
   - {fileID: 2051485215}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1373360271
 PrefabInstance:
@@ -50815,6 +52246,81 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1381083308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -74.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo muur lampen (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 69c46dd7084bb4a458609a01b6ec88e1, type: 3}
+--- !u!4 &1381083309 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 69c46dd7084bb4a458609a01b6ec88e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1381083308}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1389242398
 GameObject:
   m_ObjectHideFlags: 0
@@ -51043,7 +52549,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1407148684
 GameObject:
@@ -51201,6 +52707,141 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1414851795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1414851796}
+  m_Layer: 0
+  m_Name: Lampen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1414851796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414851795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 732022550}
+  - {fileID: 1479462418}
+  - {fileID: 292783327}
+  - {fileID: 1417993075}
+  - {fileID: 198121072}
+  - {fileID: 1076962478}
+  - {fileID: 550285260}
+  - {fileID: 1381083309}
+  - {fileID: 831473500}
+  - {fileID: 936049390}
+  - {fileID: 507349600}
+  - {fileID: 152912915}
+  - {fileID: 339890216}
+  - {fileID: 238349657}
+  - {fileID: 225659031}
+  - {fileID: 362876026}
+  - {fileID: 1110120682}
+  - {fileID: 608497681}
+  - {fileID: 2112660680}
+  - {fileID: 2018898181}
+  - {fileID: 1218827653}
+  - {fileID: 1076046401}
+  - {fileID: 1229557440}
+  - {fileID: 1299162618}
+  m_Father: {fileID: 881461369}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1417993074
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -59.27056
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -49.24837
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ced435df8e4b2de42a668922283e5e90,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo hoek R
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ced435df8e4b2de42a668922283e5e90, type: 3}
+--- !u!4 &1417993075 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ced435df8e4b2de42a668922283e5e90,
+    type: 3}
+  m_PrefabInstance: {fileID: 1417993074}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1430508690
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52398,6 +54039,81 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1001 &1479462417
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e2c37aac149a838409d13e3b781cabe2,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo muur cr (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e2c37aac149a838409d13e3b781cabe2, type: 3}
+--- !u!4 &1479462418 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e2c37aac149a838409d13e3b781cabe2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1479462417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1479942240
 GameObject:
   m_ObjectHideFlags: 0
@@ -52904,6 +54620,75 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1001 &1494013528
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.775507
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.0804415
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2cdec46c907f7b8438b5302109856d63,
+        type: 3}
+      propertyPath: m_Name
+      value: mc (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2cdec46c907f7b8438b5302109856d63, type: 3}
 --- !u!1 &1501960164
 GameObject:
   m_ObjectHideFlags: 0
@@ -55634,7 +57419,7 @@ Transform:
   - {fileID: 141941941}
   - {fileID: 326582469}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1671482339
 GameObject:
@@ -62985,6 +64770,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 79e0f8c389d7d7c4aaf728f9416a7bea,
     type: 3}
   m_PrefabInstance: {fileID: 2011978087}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2018898180
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo plafond lampen (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
+--- !u!4 &2018898181 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2018898180}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2020227040
 PrefabInstance:
@@ -74730,6 +76590,81 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1001 &2112660679
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1414851796}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd561c615eea6534cb391041386fdb8c,
+        type: 3}
+      propertyPath: m_Name
+      value: Cargo plafond lampen (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fd561c615eea6534cb391041386fdb8c, type: 3}
+--- !u!4 &2112660680 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: fd561c615eea6534cb391041386fdb8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2112660679}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2121176382
 GameObject:
   m_ObjectHideFlags: 0
