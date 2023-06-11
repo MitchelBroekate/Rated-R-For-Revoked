@@ -16,6 +16,7 @@ public class EnemyAI : MonoBehaviour
     public float viewRadius;
     public float viewAngle;
     float distanceToTarget;
+    float slerpTime = 8;
 
     Coroutine detect;
 
@@ -57,8 +58,6 @@ public class EnemyAI : MonoBehaviour
 
         agent = GetComponent<NavMeshAgent>();
 
-        agent.autoBraking = false;
-
     }
 
     void Update()
@@ -68,6 +67,14 @@ public class EnemyAI : MonoBehaviour
         SetCheckGuardState(currentState);
     }
     #endregion
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.transform.tag == "Player")
+        {
+            currentState = GuardStates.Alert;
+        }
+    }
 
     #region Switch
     public void SetCheckGuardState(GuardStates states)
@@ -84,7 +91,7 @@ public class EnemyAI : MonoBehaviour
 
             case GuardStates.Caution:
 
-                detect = StartCoroutine(Detection(1));
+                detect = StartCoroutine(Detection(1.5f));
 
                 break;
 
@@ -103,7 +110,8 @@ public class EnemyAI : MonoBehaviour
                 if (distanceToTarget <= 3)
                 {
                     agent.isStopped = true;
-                    transform.LookAt(lookTowards.transform.position);
+                    Quaternion LookOnLook = Quaternion.LookRotation(lookTowards.transform.position - transform.position);
+                    transform.rotation = Quaternion.Slerp(transform.rotation, LookOnLook, Time.deltaTime * slerpTime);
                 } else
                   {
                     agent.isStopped = false;
@@ -134,7 +142,7 @@ public class EnemyAI : MonoBehaviour
                 {
                     Debug.Log("Seeing");
                     playerDetection = player.transform.position;
-                    detect = StartCoroutine(Detection(2));
+                    detect = StartCoroutine(Detection(3));
                 }
                 else if (distanceToTarget > viewRadius && playerDetection != zero)
                 {
@@ -144,6 +152,8 @@ public class EnemyAI : MonoBehaviour
                 }
 
             }
+
+
         }
         else if (detect != null)
         {
@@ -180,8 +190,10 @@ public class EnemyAI : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(waitTime);
-
-            currentState = GuardStates.Alert;
+            if(distanceToTarget < viewRadius)
+            {
+                currentState = GuardStates.Alert;
+            }
         }
     }
     #endregion
