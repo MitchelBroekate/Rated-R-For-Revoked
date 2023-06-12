@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.Accessibility;
@@ -19,6 +20,7 @@ public class EnemyAI : MonoBehaviour
     float slerpTime = 8;
 
     Coroutine detect;
+    Coroutine alert;
 
     public Vector3 playerDetection;
     private Vector3 playerPos;
@@ -49,24 +51,27 @@ public class EnemyAI : MonoBehaviour
     }
     #endregion
 
-    #region "Update and start"
+    #region Update, Start en Collision
     void Start()
     {
         detect = null;
+        alert = null;
 
         currentState = GuardStates.Patrol;
 
         agent = GetComponent<NavMeshAgent>();
 
+        agent.autoBraking = false;
     }
 
     void Update()
     {
         distanceToTarget = Vector3.Distance(transform.position, player.transform.position);
-        Vision();
         SetCheckGuardState(currentState);
+        Vision();
+
     }
-    #endregion
+
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -75,6 +80,7 @@ public class EnemyAI : MonoBehaviour
             currentState = GuardStates.Alert;
         }
     }
+    #endregion
 
     #region Switch
     public void SetCheckGuardState(GuardStates states)
@@ -91,13 +97,23 @@ public class EnemyAI : MonoBehaviour
 
             case GuardStates.Caution:
 
-                detect = StartCoroutine(Detection(1.5f));
+                alert = StartCoroutine(AlertState(1.5f));
 
                 break;
 
             case GuardStates.Seen:
-
-                StartCoroutine(SeenMove(2));
+                    
+                if(distanceToTarget < viewRadius)
+                {
+                    alert = StartCoroutine(AlertState(3));
+                    StopCoroutine(alert);
+                }
+                else
+                {
+                    Debug.Log("hallo");
+                    StopCoroutine(alert);
+                    detect = StartCoroutine(Detection(2));
+                }
 
                 Debug.Log("Seen and waiting to move");
 
@@ -114,8 +130,9 @@ public class EnemyAI : MonoBehaviour
                     transform.rotation = Quaternion.Slerp(transform.rotation, LookOnLook, Time.deltaTime * slerpTime);
                 } else
                   {
-                    agent.isStopped = false;
+
                     agent.destination = playerPos;
+
                   }
 
                 break;
@@ -140,25 +157,19 @@ public class EnemyAI : MonoBehaviour
             {
                 if (Physics.Raycast(transform.position, playerTarget, distanceToTarget, obstacles) == false)
                 {
-                    Debug.Log("Seeing");
-                    playerDetection = player.transform.position;
-                    detect = StartCoroutine(Detection(3));
-                }
-                else if (distanceToTarget > viewRadius && playerDetection != zero)
-                {
-                    StopCoroutine(detect);
 
+                    playerDetection = player.transform.position;
                     currentState = GuardStates.Seen;
+
                 }
 
             }
 
-
         }
-        else if (detect != null)
-        {
-            StopCoroutine(detect);
-        }
+        //else if (detect != null)
+       // {
+        //    StopAllCoroutines();
+       // }
     }
     #endregion
 
@@ -184,35 +195,37 @@ public class EnemyAI : MonoBehaviour
     }
     #endregion
 
-    #region IEnumerator Detector Alert
+    #region IEnumerator
     private IEnumerator Detection(float waitTime)
     {
         while (true)
         {
-            yield return new WaitForSeconds(waitTime);
-            if(distanceToTarget < viewRadius)
             {
-                currentState = GuardStates.Alert;
+                Debug.Log("hoi");
+                agent.isStopped = true;
+
+                yield return new WaitForSeconds(waitTime);
+
+                agent.destination = playerDetection;
+                agent.isStopped = false;
+
+                yield return new WaitForSeconds(waitTime);
+
+                currentState = GuardStates.Patrol;
+                playerDetection = zero;
             }
+
         }
     }
-    #endregion
 
-    #region Seen Move
-    private IEnumerator SeenMove(float waitMove) 
+    private IEnumerator AlertState(float waitAlert) 
     {
-        while(true)
+        while (true) 
         {
-            yield return new WaitForSeconds(waitMove);
+            yield return new WaitForSeconds(waitAlert);
 
-            agent.destination = playerDetection;
-
-            yield return new WaitForSeconds(waitMove);
-
-            playerDetection = zero;
-            currentState = GuardStates.Patrol;
+            currentState = GuardStates.Alert;
         }
     }
-
     #endregion
 }
