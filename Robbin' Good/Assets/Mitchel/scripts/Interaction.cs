@@ -20,7 +20,7 @@ public class Interaction : MonoBehaviour
 
     void Update()
     {
-        if (Physics.Raycast(transform.position, transform.forward, out hit, 2))
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 4))
         {
             if(hit.transform.gameObject.tag == "Interactable")
             {

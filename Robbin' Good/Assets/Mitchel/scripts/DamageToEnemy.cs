@@ -11,6 +11,7 @@ public class DamageToEnemy : MonoBehaviour
     public int maxAmmo = 8;
     private int currentAmmo;
     public float reloadTime = 2.5f;
+    private bool isReloading = false;
 
     private void Start()
     {
@@ -19,6 +20,11 @@ public class DamageToEnemy : MonoBehaviour
 
     void Update()
     {
+        if (isReloading)
+        {
+            return;
+        }
+
         if (currentAmmo <= 0) 
         {
             StartCoroutine(Reload());
@@ -34,6 +40,7 @@ public class DamageToEnemy : MonoBehaviour
                 {
                     Health health = gunHit.transform.gameObject.GetComponent<Health>();
                     health.DealDamage(20);
+
                 }
             }
         }
@@ -41,8 +48,10 @@ public class DamageToEnemy : MonoBehaviour
 
     IEnumerator Reload()
     {
+        isReloading = true;
         yield return new WaitForSeconds(reloadTime);
 
         currentAmmo = maxAmmo;
+        isReloading = false;
     }
 }
