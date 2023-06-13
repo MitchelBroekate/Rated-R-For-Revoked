@@ -19,7 +19,7 @@ public class EnemyAI : MonoBehaviour
     float distanceToTarget;
     float slerpTime = 8;
 
-    Coroutine detect;
+    //Coroutine detect;
     Coroutine alert;
 
     public Vector3 playerDetection;
@@ -54,7 +54,7 @@ public class EnemyAI : MonoBehaviour
     #region Update, Start en Collision
     void Start()
     {
-        detect = null;
+       // detect = null;
         alert = null;
 
         currentState = GuardStates.Patrol;
@@ -101,23 +101,23 @@ public class EnemyAI : MonoBehaviour
 
                 break;
 
-            case GuardStates.Seen:
+           // case GuardStates.Seen:
                     
-                if(distanceToTarget < viewRadius)
-                {
-                    alert = StartCoroutine(AlertState(3));
-                    StopCoroutine(alert);
-                }
-                else
-                {
-                    Debug.Log("hallo");
-                    StopCoroutine(alert);
-                    detect = StartCoroutine(Detection(2));
-                }
+               // if(distanceToTarget < viewRadius)
+               // {
+                //    alert = StartCoroutine(AlertState(3));
+                //    StopCoroutine(alert);
+               // }
+               // else
+               // {
+               //     Debug.Log("hallo");
+               //     StopCoroutine(alert);
+               //     detect = StartCoroutine(Detection(2));
+               // }
 
-                Debug.Log("Seen and waiting to move");
+               // Debug.Log("Seen and waiting to move");
 
-                break;
+               // break;
 
             case GuardStates.Alert:
 
@@ -159,17 +159,18 @@ public class EnemyAI : MonoBehaviour
                 {
 
                     playerDetection = player.transform.position;
-                    currentState = GuardStates.Seen;
+                   // currentState = GuardStates.Seen;
+                    alert = StartCoroutine(AlertState(3));
 
                 }
 
             }
 
         }
-        //else if (detect != null)
-       // {
-        //    StopAllCoroutines();
-       // }
+       else if (alert != null)
+       {
+           StopAllCoroutines();
+       }
     }
     #endregion
 
@@ -196,27 +197,27 @@ public class EnemyAI : MonoBehaviour
     #endregion
 
     #region IEnumerator
-    private IEnumerator Detection(float waitTime)
-    {
-        while (true)
-        {
-            {
-                Debug.Log("hoi");
-                agent.isStopped = true;
+   // private IEnumerator Detection(float waitTime)
+   // {
+   //    while (true)
+   //     {
+   //         {
+    //            Debug.Log("hoi");
+    //            agent.isStopped = true;
+    //
+    //            yield return new WaitForSeconds(waitTime);
 
-                yield return new WaitForSeconds(waitTime);
+    //            agent.destination = playerDetection;
+    //            agent.isStopped = false;
+    
+    //            yield return new WaitForSeconds(waitTime);
 
-                agent.destination = playerDetection;
-                agent.isStopped = false;
+    //            currentState = GuardStates.Patrol;
+     //           playerDetection = zero;
+      //      }
 
-                yield return new WaitForSeconds(waitTime);
-
-                currentState = GuardStates.Patrol;
-                playerDetection = zero;
-            }
-
-        }
-    }
+     //   }
+   // }
 
     private IEnumerator AlertState(float waitAlert) 
     {
