@@ -31,6 +31,11 @@ public class KeyMove : MonoBehaviour
     public KeyCode sprintKey = KeyCode.LeftShift;
     public KeyCode crouchKey = KeyCode.LeftControl;
 
+    [Header("SFX")]
+    public AudioSource walkSFX;
+    public AudioSource crouchSFX;
+    public AudioSource sprintSFX;
+
     public MovementState state;
 
     public enum MovementState
@@ -62,6 +67,51 @@ public class KeyMove : MonoBehaviour
         MyInput();
         SpeedControl();
         StateHandeler();
+
+        if (state == MovementState.walking)
+        {
+            if (hor != 0 || vert != 0)
+            {
+                if (!walkSFX.isPlaying)
+                {
+                    walkSFX.Play();
+                }
+            }
+            else
+            {
+                walkSFX.Stop();
+            }
+        }
+
+        if (state == MovementState.crouching)
+        {
+            if (hor != 0 || vert != 0)
+            {
+                if (!crouchSFX.isPlaying)
+                {
+                    crouchSFX.Play();
+                }
+            }
+        }
+        else
+        {
+            crouchSFX.Stop();
+        }
+
+        if (state == MovementState.sprinting)
+        {
+            if (hor != 0 || vert != 0)
+            {
+                if (!sprintSFX.isPlaying)
+                {
+                    sprintSFX.Play();
+                }
+            }
+        }
+        else
+        {
+            sprintSFX.Stop();
+        }
     }
     private void FixedUpdate()
     {

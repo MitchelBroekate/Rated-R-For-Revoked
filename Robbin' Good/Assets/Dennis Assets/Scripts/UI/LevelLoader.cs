@@ -9,8 +9,7 @@ public class LevelLoader : MonoBehaviour
 {
     [Header("LevelLoaderVariables")]
     public GameObject loadingScreen;
-    public Image loadingBarFill;
-    public TMP_Text progressText;
+
 
     public void LoadLevel(int sceneIndex)
     {
@@ -25,9 +24,6 @@ public class LevelLoader : MonoBehaviour
 
         while (!operation.isDone)
         {
-            float progressValue = Mathf.Clamp01(operation.progress / .9f);
-            loadingBarFill.fillAmount = progressValue;
-            progressText.text = progressValue * 100f + "%";
             yield return null;
         }
     }
