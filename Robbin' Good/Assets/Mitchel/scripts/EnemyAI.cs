@@ -133,7 +133,7 @@ public class EnemyAI : MonoBehaviour
 
                 Debug.Log("Spotted");
 
-                if (distanceToTarget <= 3)
+                if (distanceToTarget <= 1)
                 {
                     agent.isStopped = true;
                     //guard.SetTrigger("Attacking");

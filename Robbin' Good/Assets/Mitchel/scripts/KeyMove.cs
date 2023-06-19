@@ -32,6 +32,7 @@ public class KeyMove : MonoBehaviour
     public KeyCode crouchKey = KeyCode.LeftControl;
 
     [Header("SFX")]
+    public GameObject pause;
     public AudioSource walkSFX;
     public AudioSource crouchSFX;
     public AudioSource sprintSFX;
@@ -54,6 +55,12 @@ public class KeyMove : MonoBehaviour
 
     void Update()
     {
+        if(pause.activeInHierarchy == true)
+        {
+            walkSFX.Stop();
+            crouchSFX.Stop();
+            sprintSFX.Stop();
+        }
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, WhatIsGround);
 
         if(grounded)
@@ -85,6 +92,8 @@ public class KeyMove : MonoBehaviour
 
         if (state == MovementState.crouching)
         {
+            walkSFX.Stop();
+
             if (hor != 0 || vert != 0)
             {
                 if (!crouchSFX.isPlaying)
@@ -100,6 +109,8 @@ public class KeyMove : MonoBehaviour
 
         if (state == MovementState.sprinting)
         {
+            walkSFX.Stop();
+
             if (hor != 0 || vert != 0)
             {
                 if (!sprintSFX.isPlaying)
