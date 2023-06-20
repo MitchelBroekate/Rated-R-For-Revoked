@@ -7,15 +7,17 @@ using UnityEngine.SceneManagement;
 public class PauseMenuScript : MonoBehaviour
 {
     public static bool GameIsPaused = false;
+    public GameObject tutorialPop;
     public GameObject pauseMenuUI;
     public GameObject settingsMenuUI;
     public GameObject hudUI;
     bool settingsMenu = false;
+    bool tutorial = false;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && settingsMenu == false)
+        if (Input.GetKeyDown(KeyCode.Escape) && settingsMenu == false && tutorial == true)
         {
             if (GameIsPaused)
             {
@@ -26,7 +28,7 @@ public class PauseMenuScript : MonoBehaviour
                 Pause();
             }
         }
-        
+        TutorialFinished();
     }
 
     public void Resume()
@@ -62,7 +64,18 @@ public class PauseMenuScript : MonoBehaviour
         {
             settingsMenuUI.SetActive(false);
             settingsMenu = false;
-            
+        }
+    }
+
+    public void TutorialFinished()
+    {
+        if (tutorialPop.activeInHierarchy)
+        {
+            tutorial = false;
+        }
+        else
+        {
+            tutorial = true;
         }
     }
 

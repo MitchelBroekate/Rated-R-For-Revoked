@@ -10,6 +10,7 @@ public class Interaction : MonoBehaviour
     [Header("Transforms")]
     public GameObject pickUps;
     public GameObject gun;
+    public GameObject hudUI;
 
     [Header("Keybind")]
     public KeyCode interact = KeyCode.F;
@@ -36,6 +37,7 @@ public class Interaction : MonoBehaviour
         if (pickUps.activeInHierarchy == false)
         {
             gun.SetActive(true);
+            hudUI.SetActive(true);
         }
     }
 }
