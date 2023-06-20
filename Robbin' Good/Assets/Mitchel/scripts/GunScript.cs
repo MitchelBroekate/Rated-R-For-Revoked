@@ -21,8 +21,6 @@ public class GunScript : MonoBehaviour
 
     bool shooting, readyToShoot, reloading;
 
-    public bool allowInvoke = true;
-
     private void Awake()
     {
         bulletsLeft = magezineSize;
