@@ -20,10 +20,9 @@ public class LevelLoader : MonoBehaviour
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
 
-        loadingScreen.SetActive(true);
-
         while (!operation.isDone)
         {
+            loadingScreen.SetActive(true);
             yield return null;
         }
     }
