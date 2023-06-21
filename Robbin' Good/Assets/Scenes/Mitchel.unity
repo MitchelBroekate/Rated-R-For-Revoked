@@ -1584,7 +1584,9 @@ MonoBehaviour:
   Cam: {fileID: 989032475}
   attackPoint: {fileID: 1275965156}
   bullet: {fileID: 707975777}
+  currentBullet: {fileID: 0}
   muzzleFlash: {fileID: 1586265220}
+  playerRB: {fileID: 307659779}
   shootForce: 150
   timeBetweenShooting: 0.3
   reloadTime: 1.5
@@ -1592,6 +1594,8 @@ MonoBehaviour:
   magezineSize: 8
   bulletsTap: 1
   allowButtonHold: 1
+  recoilForce: 0
+  allowInvoke: 0
 --- !u!1 &989032473
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,6 +1764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickUps: {fileID: 1994491466}
   gun: {fileID: 1579400408}
+  hudUI: {fileID: 0}
   interact: 102
 --- !u!1 &1033534838
 GameObject:
@@ -2882,6 +2887,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Projectile
       objectReference: {fileID: 0}
+    - target: {fileID: 4512719246354967268, guid: 37023b64671b6bd49955f184e8264fa4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Projectile
+      objectReference: {fileID: 0}
     - target: {fileID: 4512719246398479246, guid: 37023b64671b6bd49955f184e8264fa4,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -3342,6 +3352,7 @@ GameObject:
   - component: {fileID: 1624413424}
   - component: {fileID: 1624413423}
   - component: {fileID: 1624413429}
+  - component: {fileID: 1624413430}
   m_Layer: 0
   m_Name: enemy Test
   m_TagString: Enemy
@@ -3495,6 +3506,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1624413430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624413421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5785f699da02b4daacd0cf7fd0079c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 0
 --- !u!1 &1670052614
 GameObject:
   m_ObjectHideFlags: 0

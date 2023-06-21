@@ -8,8 +8,10 @@ public class GunScript : MonoBehaviour
     public Camera Cam;
     public Transform attackPoint;
     public GameObject bullet;
-    TextMeshProUGUI ammoDisplay;
+    public GameObject currentBullet;
+    public TextMeshProUGUI ammoDisplay;
     public GameObject muzzleFlash;
+    public Rigidbody playerRB;
 
     public float shootForce;
 
@@ -17,14 +19,19 @@ public class GunScript : MonoBehaviour
     public int magezineSize, bulletsTap;
     public bool allowButtonHold;
 
+    public float recoilForce;
+
     int bulletsLeft, bulletsShot;
 
     bool shooting, readyToShoot, reloading;
+
+    public bool allowInvoke;
 
     private void Awake()
     {
         bulletsLeft = magezineSize;
         readyToShoot = true;
+        allowInvoke = true;
     }
 
     private void Update()
@@ -36,6 +43,11 @@ public class GunScript : MonoBehaviour
 
             ammoDisplay.SetText(bulletsLeft / bulletsTap + "/" + magezineSize / bulletsTap);
         }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Destroy(currentBullet.gameObject);
     }
 
     private void MyInput()
@@ -87,7 +99,7 @@ public class GunScript : MonoBehaviour
 
         Vector3 DirectionBullet = targetPoint - attackPoint.position;
 
-        GameObject currentBullet = Instantiate(bullet, attackPoint.position, Quaternion.identity);
+        currentBullet = Instantiate(bullet, attackPoint.position, Quaternion.identity);
 
         currentBullet.transform.forward = DirectionBullet.normalized;
 
@@ -101,7 +113,13 @@ public class GunScript : MonoBehaviour
         bulletsLeft--;
         bulletsShot++;
 
-        Invoke("ResetShots", timeBetweenShooting);
+        if (allowInvoke)
+        {
+            Invoke("ResetShots", timeBetweenShooting);
+            allowInvoke = false;
+
+            playerRB.AddForce(-DirectionBullet.normalized * recoilForce, ForceMode.Impulse);
+        }
 
         if(bulletsShot < bulletsTap && bulletsLeft > 0) 
         {
@@ -112,6 +130,7 @@ public class GunScript : MonoBehaviour
     private void ResetShots()
     {
         readyToShoot = true;
+        allowInvoke = true;
 
     }
 
