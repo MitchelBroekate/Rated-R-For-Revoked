@@ -12,6 +12,7 @@ public class GunScript : MonoBehaviour
     public TextMeshProUGUI ammoDisplay;
     public GameObject muzzleFlash;
     public Rigidbody playerRB;
+    public GameObject active;
 
     public float shootForce;
 
@@ -40,14 +41,15 @@ public class GunScript : MonoBehaviour
 
         if(ammoDisplay != null)
         {
-
-            ammoDisplay.SetText(bulletsLeft / bulletsTap + "/" + magezineSize / bulletsTap);
+            if (reloading)
+            {
+                ammoDisplay.SetText("Reloading...");
+            }
+            else
+            {
+                ammoDisplay.SetText(bulletsLeft / bulletsTap + "/" + magezineSize / bulletsTap);
+            }
         }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        Destroy(currentBullet.gameObject);
     }
 
     private void MyInput()
@@ -61,19 +63,19 @@ public class GunScript : MonoBehaviour
             shooting = Input.GetKeyDown(KeyCode.Mouse0);
         }
 
-       if(readyToShoot && shooting && !reloading && bulletsLeft > 0)
+       if(readyToShoot && shooting && !reloading && bulletsLeft > 0 && active.activeInHierarchy == true)
         {
             bulletsShot = 0;
 
             Shoot();
         }
 
-       if(Input.GetKeyDown(KeyCode.R) && bulletsLeft < magezineSize && !reloading)
+       if(Input.GetKeyDown(KeyCode.R) && bulletsLeft < magezineSize && !reloading && active.activeInHierarchy == true)
         {
             Reload();
         }
 
-        if (readyToShoot && shooting && !reloading && bulletsLeft <= 0)
+        if (readyToShoot && shooting && !reloading && bulletsLeft <= 0 && active.activeInHierarchy == true)
         {
             Reload();
         }
