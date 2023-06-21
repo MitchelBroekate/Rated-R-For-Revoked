@@ -10,6 +10,7 @@ public class GunScript : MonoBehaviour
     public GameObject bullet;
     public GameObject currentBullet;
     public TextMeshProUGUI ammoDisplay;
+    public TextMeshProUGUI reloadDisplay;
     public GameObject muzzleFlash;
     public Rigidbody playerRB;
     public GameObject active;
@@ -43,7 +44,7 @@ public class GunScript : MonoBehaviour
         {
             if (reloading)
             {
-                ammoDisplay.SetText("Reloading...");
+                reloadDisplay.SetText("Reloading...");
             }
             else
             {
