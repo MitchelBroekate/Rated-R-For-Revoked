@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,20 +8,25 @@ public class LevelLoader : MonoBehaviour
 {
     [Header("LevelLoaderVariables")]
     public GameObject loadingScreen;
+    public GameObject mainMenu;
 
 
-    public void LoadLevel(int sceneIndex)
+
+    public void LoadLevelButton(int sceneIndex)
     {
-        StartCoroutine(LoadAsynchronously(sceneIndex));
+        mainMenu.SetActive(false);
+        loadingScreen.SetActive(true);
+
+        StartCoroutine(LoadLevelASync(sceneIndex));
     }
 
-    IEnumerator LoadAsynchronously (int sceneIndex)
+    IEnumerator LoadLevelASync (int sceneIndex)
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
 
         while (!operation.isDone)
         {
-            loadingScreen.SetActive(true);
+            float progressValue = Mathf.Clamp01(operation.progress / 0.9f);
             yield return null;
         }
     }
