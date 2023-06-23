@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Interaction : MonoBehaviour
 {
     RaycastHit hit;
+    public TextMeshProUGUI interactHUDText;
 
     [Header("Transforms")]
     public GameObject pickUps;
@@ -25,13 +27,22 @@ public class Interaction : MonoBehaviour
         {
             if(hit.transform.gameObject.tag == "Interactable")
             {
+                interactHUDText.enabled = true;
                 if(Input.GetKey(interact))
                 {
                     hit.transform.gameObject.SetActive(false);
                 }
-                
+
+            }
+            else
+            {
+                interactHUDText.enabled = false;
             }
 
+        }
+        else
+        {
+            interactHUDText.enabled = false;
         }
 
         if (pickUps.activeInHierarchy == false)

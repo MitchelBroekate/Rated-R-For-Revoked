@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class TutorialManager : MonoBehaviour
 {
+    [Header("Tutorial Variables")]
     public GameObject tutorialPop;
     public GameObject tutorialTrigger;
+
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +18,7 @@ public class TutorialManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void OnTriggerEnter(Collider other)
