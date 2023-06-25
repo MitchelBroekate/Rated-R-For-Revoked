@@ -123,75 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &956460431
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.5333776
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.515511
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: fb3a63162709e7443aa1d6d7b34f34cd,
-        type: 3}
-      propertyPath: m_Name
-      value: melee guard
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fb3a63162709e7443aa1d6d7b34f34cd, type: 3}
 --- !u!1 &1138778763
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,3 +322,72 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1487710429
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.643247
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.0666447
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2313d0829c1b0654a82c8e93148725ed,
+        type: 3}
+      propertyPath: m_Name
+      value: melee guard
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2313d0829c1b0654a82c8e93148725ed, type: 3}
