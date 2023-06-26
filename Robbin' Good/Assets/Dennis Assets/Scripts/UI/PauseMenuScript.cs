@@ -11,6 +11,7 @@ public class PauseMenuScript : MonoBehaviour
     public GameObject pauseMenuUI;
     public GameObject settingsMenuUI;
     public GameObject hudUI;
+    public GameObject jack;
     bool settingsMenu = false;
     bool tutorial = false;
 
@@ -33,7 +34,10 @@ public class PauseMenuScript : MonoBehaviour
 
     public void Resume()
     {
-        hudUI.SetActive(true);
+        if (jack.activeInHierarchy)
+        {
+            hudUI.SetActive(true);
+        }
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
