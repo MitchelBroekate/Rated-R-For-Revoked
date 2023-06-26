@@ -5,17 +5,18 @@ using UnityEngine.Rendering;
 
 public class KeyMove : MonoBehaviour
 {
-    public Transform orientation;
     private float moveSpeed;
     Vector3 moveDirection;
     Rigidbody rb;
+    public Vector3 rotateCamY;
 
     [Header("Move Controls")]
     public float walkSpeed;
     public float sprintSpeed;
     public float groundDrag;
-    public float hor;
-    public float vert;
+    public float horMove;
+    public float vertMove;
+    public float sensX;
 
     [Header("Ground check")]
     public float playerHeight;
@@ -66,7 +67,8 @@ public class KeyMove : MonoBehaviour
         if(grounded)
         {
             rb.drag = groundDrag;
-        } else
+        } 
+        else
         {
             rb.drag = 0;
         }
@@ -74,10 +76,11 @@ public class KeyMove : MonoBehaviour
         MyInput();
         SpeedControl();
         StateHandeler();
+        MovePlayer();
 
         if (state == MovementState.walking)
         {
-            if (hor != 0 || vert != 0)
+            if (horMove != 0 || vertMove != 0)
             {
                 if (!walkSFX.isPlaying)
                 {
@@ -94,7 +97,7 @@ public class KeyMove : MonoBehaviour
         {
             walkSFX.Stop();
 
-            if (hor != 0 || vert != 0)
+            if (horMove != 0 || vertMove != 0)
             {
                 if (!crouchSFX.isPlaying)
                 {
@@ -111,7 +114,7 @@ public class KeyMove : MonoBehaviour
         {
             walkSFX.Stop();
 
-            if (hor != 0 || vert != 0)
+            if (horMove != 0 || vertMove != 0)
             {
                 if (!sprintSFX.isPlaying)
                 {
@@ -124,18 +127,9 @@ public class KeyMove : MonoBehaviour
             sprintSFX.Stop();
         }
     }
-    private void FixedUpdate()
-    {
-
-
-        MovePlayer();
-    }
 
     private void MyInput()
     {
-
-        hor = Input.GetAxis("Horizontal");
-        vert = Input.GetAxis("Vertical");
 
         if(Input.GetKeyDown(crouchKey))
         {
@@ -173,8 +167,19 @@ public class KeyMove : MonoBehaviour
 
     private void MovePlayer()
     {
-        moveDirection = orientation.forward * vert + orientation.right * hor;
-        rb.AddForce(moveDirection.normalized * moveSpeed * 5f, ForceMode.Force);
+
+        horMove = Input.GetAxis("Horizontal");
+        vertMove = Input.GetAxis("Vertical");
+        float MouseX = Input.GetAxis("Mouse X") * Time.deltaTime * sensX;
+
+        rotateCamY.y = MouseX;
+
+        transform.Rotate(rotateCamY);
+
+        moveDirection.x = horMove;
+        moveDirection.z = vertMove;
+
+        transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
     }
 
     private void SpeedControl()
