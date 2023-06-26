@@ -12937,6 +12937,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f455658360c203049ab52fca51521176, type: 3}
+--- !u!1 &132008630 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+    type: 3}
+  m_PrefabInstance: {fileID: 1120502187}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &132941940
 GameObject:
   m_ObjectHideFlags: 0
@@ -19328,6 +19334,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cargo tubes (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!4 &261982122 stripped
@@ -23153,6 +23164,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cargo tubes (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
@@ -30966,6 +30982,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527700351}
   m_CullTransparentMesh: 1
+--- !u!1 &527763880 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+    type: 3}
+  m_PrefabInstance: {fileID: 705481005}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &531734450
 GameObject:
   m_ObjectHideFlags: 0
@@ -31871,6 +31893,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cargo tubes (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
@@ -39278,6 +39305,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cargo tubes (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!4 &608620760 stripped
@@ -41478,6 +41510,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650935379}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &651576597 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+    type: 3}
+  m_PrefabInstance: {fileID: 554367724}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &651576600
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651576597}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4240955173616993384, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!1 &652387674
 GameObject:
   m_ObjectHideFlags: 0
@@ -44168,6 +44220,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a776bb4db5d6c6842ade1ecfb74e2622,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7de27391176299f47b117f1d9ac6cc9f, type: 2}
@@ -44175,6 +44232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cargo tubes
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
@@ -44184,6 +44246,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 705481005}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &705481009
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527763880}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4240955173616993384, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!1 &705593394
 GameObject:
   m_ObjectHideFlags: 0
@@ -49661,6 +49737,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cargo tubes (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!4 &719520519 stripped
@@ -50783,6 +50864,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 749518482}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &750399649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+    type: 3}
+  m_PrefabInstance: {fileID: 719520518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &750399652
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750399649}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4240955173616993384, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!1 &751738725
 GameObject:
   m_ObjectHideFlags: 0
@@ -64284,6 +64385,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cargo tubes (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!4 &933412263 stripped
@@ -73041,6 +73147,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cargo tubes (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!4 &1120502188 stripped
@@ -73049,6 +73160,20 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1120502187}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1120502191
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132008630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4240955173616993384, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!1 &1121372491
 GameObject:
   m_ObjectHideFlags: 0
@@ -76617,6 +76742,26 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4988656824864879670, guid: 79e0f8c389d7d7c4aaf728f9416a7bea, type: 3}
+--- !u!1 &1185151092 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+    type: 3}
+  m_PrefabInstance: {fileID: 360740801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1185151095
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185151092}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4240955173616993384, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!1 &1186559279
 GameObject:
   m_ObjectHideFlags: 0
@@ -91433,6 +91578,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cargo tubes (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!4 &1382911469 stripped
@@ -96314,6 +96464,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: verstop kist
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7d36dcd57ebdf8e438cfcbe7fa919575,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d36dcd57ebdf8e438cfcbe7fa919575, type: 3}
@@ -106857,6 +107012,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: verstop kist deksel
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ef87a3be671a8a047ae81d9308e01d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef87a3be671a8a047ae81d9308e01d51, type: 3}
 --- !u!1 &1724702670 stripped
@@ -109842,6 +110002,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1784245509}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1787520437 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+    type: 3}
+  m_PrefabInstance: {fileID: 608620759}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1787520440
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787520437}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4240955173616993384, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!1 &1790595462 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a75de3d26bab5b540a246651b9b8f74f,
@@ -114038,6 +114218,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cargo tubes (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!4 &1879069128 stripped
@@ -117112,6 +117297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 34b6036fbbdc4c546bba242ea1c880d7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34b6036fbbdc4c546bba242ea1c880d7, type: 3}
@@ -122974,6 +123164,26 @@ Transform:
   m_Father: {fileID: 1368736408}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2054908491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+    type: 3}
+  m_PrefabInstance: {fileID: 261982121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2054908494
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054908491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4240955173616993384, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!1 &2056259342
 GameObject:
   m_ObjectHideFlags: 0
@@ -127892,6 +128102,26 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &2057067988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+    type: 3}
+  m_PrefabInstance: {fileID: 1879069127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2057067991
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057067988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4240955173616993384, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!1 &2057176961
 GameObject:
   m_ObjectHideFlags: 0
@@ -130244,6 +130474,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118793860}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2120313217 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+    type: 3}
+  m_PrefabInstance: {fileID: 1382911468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2120313220
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120313217}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4240955173616993384, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!1 &2120655258
 GameObject:
   m_ObjectHideFlags: 0
@@ -131255,6 +131505,26 @@ Transform:
   m_Father: {fileID: 622465361}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &2138010324 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a776bb4db5d6c6842ade1ecfb74e2622,
+    type: 3}
+  m_PrefabInstance: {fileID: 933412262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2138010327
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138010324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4240955173616993384, guid: a776bb4db5d6c6842ade1ecfb74e2622, type: 3}
 --- !u!1 &2138020305
 GameObject:
   m_ObjectHideFlags: 0
