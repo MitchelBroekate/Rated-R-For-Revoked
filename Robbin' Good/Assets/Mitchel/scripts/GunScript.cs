@@ -5,15 +5,28 @@ using TMPro;
 
 public class GunScript : MonoBehaviour
 {
+    [Header("Links")]
+
     public Camera Cam;
+
     public Transform attackPoint;
     public GameObject bullet;
     public GameObject currentBullet;
+
     public TextMeshProUGUI ammoDisplay;
     public TextMeshProUGUI reloadDisplay;
     public GameObject muzzleFlash;
+
     public Rigidbody playerRB;
+
     public GameObject active;
+
+    public AudioSource source;
+
+    public AudioClip gunShotClip;
+    public AudioClip reloadClip;
+
+    [Header("Gun settings")]
 
     public float shootForce;
 
@@ -116,6 +129,8 @@ public class GunScript : MonoBehaviour
         bulletsLeft--;
         bulletsShot++;
 
+        source.PlayOneShot(gunShotClip);
+
         if (allowInvoke)
         {
             Invoke("ResetShots", timeBetweenShooting);
@@ -141,6 +156,8 @@ public class GunScript : MonoBehaviour
     {
         reloading = true;
         Invoke("ReloadDone", reloadTime);
+
+        source.PlayOneShot(reloadClip);
     }
 
     private void ReloadDone()
