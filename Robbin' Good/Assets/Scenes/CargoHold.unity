@@ -22100,6 +22100,7 @@ MonoBehaviour:
   pickUps: {fileID: 202036272}
   gun: {fileID: 1666644044}
   hudUI: {fileID: 2051485214}
+  pauseMenu: {fileID: 383223425}
   interact: 102
 --- !u!114 &330585551
 MonoBehaviour:
@@ -24516,6 +24517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cade9b774e4ebb469a38ca7243a0458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameIsPaused: 0
   tutorialPop: {fileID: 84547771}
   pauseMenuUI: {fileID: 1745758116}
   settingsMenuUI: {fileID: 932744260}

@@ -13,9 +13,16 @@ public class Interaction : MonoBehaviour
     public GameObject pickUps;
     public GameObject gun;
     public GameObject hudUI;
+    public GameObject pauseMenu;
+    PauseMenuScript pauseMenuScript;
 
     [Header("Keybind")]
     public KeyCode interact = KeyCode.F;
+
+    public void Awake()
+    {
+        pauseMenuScript = pauseMenu.GetComponent<PauseMenuScript>();
+    }
     void Start()
     {
         
@@ -45,7 +52,7 @@ public class Interaction : MonoBehaviour
             interactHUDText.enabled = false;
         }
 
-        if (pickUps.activeInHierarchy == false)
+        if (!pickUps.activeInHierarchy && !pauseMenuScript.GameIsPaused)
         {
             gun.SetActive(true);
             hudUI.SetActive(true);
