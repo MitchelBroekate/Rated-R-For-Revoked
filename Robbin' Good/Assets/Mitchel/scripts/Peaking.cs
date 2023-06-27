@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Peaking : MonoBehaviour
 {
-    public float lerpTime = 0.15f;
+    public float lerpTime = 0.30f;
 
     public Transform peakRight;
     public Transform peakLeft;

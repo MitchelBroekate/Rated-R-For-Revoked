@@ -167,22 +167,27 @@ public class KeyMove : MonoBehaviour
 
     private void MovePlayer()
     {
+    if (Input.GetKey(KeyCode.W))
+        {
+            rb.AddForce(transform.forward * moveSpeed);
+        }
+    if (Input.GetKey(KeyCode.S))
+        {
+            rb.AddForce(-transform.forward * moveSpeed);
+        }
+    if (Input.GetKey(KeyCode.D))
+        {
+            rb.AddForce(transform.right * moveSpeed);
+        }
+    if (Input.GetKey(KeyCode.A))
+        {
+            rb.AddForce(-transform.right * moveSpeed);
+        }
 
-        horMove = Input.GetAxis("Horizontal");
-        vertMove = Input.GetAxis("Vertical");
-        float MouseX = Input.GetAxis("Mouse X") * Time.deltaTime * sensX;
-
-        rotateCamY.y = MouseX;
-
-        transform.Rotate(rotateCamY);
-
-        moveDirection.x = horMove;
-        moveDirection.z = vertMove;
-
-        transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
     }
+        
 
-    private void SpeedControl()
+private void SpeedControl()
     {
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
