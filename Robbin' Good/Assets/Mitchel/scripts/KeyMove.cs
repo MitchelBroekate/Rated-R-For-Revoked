@@ -8,7 +8,6 @@ public class KeyMove : MonoBehaviour
     private float moveSpeed;
     Vector3 moveDirection;
     Rigidbody rb;
-    public Vector3 rotateCamY;
 
     [Header("Move Controls")]
     public float walkSpeed;
