@@ -52,7 +52,7 @@ public class Interaction : MonoBehaviour
             interactHUDText.enabled = false;
         }
 
-        if (!pickUps.activeInHierarchy && !pauseMenuScript.GameIsPaused)
+        if (!pickUps.activeInHierarchy && useMenuScript.GameIsPaused)
         {
             gun.SetActive(true);
             hudUI.SetActive(true);

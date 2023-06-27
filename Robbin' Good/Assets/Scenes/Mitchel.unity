@@ -707,6 +707,7 @@ GameObject:
   - component: {fileID: 307659780}
   - component: {fileID: 307659781}
   - component: {fileID: 307659782}
+  - component: {fileID: 307659783}
   m_Layer: 0
   m_Name: capsule
   m_TagString: Player
@@ -775,7 +776,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ea167ad88b50c4c9fa4dd9fdf5345c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateCamY: {x: 0, y: 0, z: 0}
   walkSpeed: 7
   sprintSpeed: 10
   groundDrag: 5
@@ -933,6 +933,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!95 &307659783
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307659773}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 1ce83c04ca77dd7459a838d753ca12f3, type: 3}
+  m_Controller: {fileID: 9100000, guid: 2571136333778874395a3b4883d51803, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &387530363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,6 +1125,11 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1ce83c04ca77dd7459a838d753ca12f3,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 1ce83c04ca77dd7459a838d753ca12f3,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8417361359673230750, guid: 1ce83c04ca77dd7459a838d753ca12f3,
@@ -1932,6 +1957,7 @@ MonoBehaviour:
   sensY: 400
   sensX: 400
   player: {fileID: 307659773}
+  cam: {fileID: 989032475}
 --- !u!114 &989032480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1965,6 +1991,7 @@ MonoBehaviour:
   pickUps: {fileID: 1994491466}
   gun: {fileID: 1579400408}
   hudUI: {fileID: 1112320216}
+  pauseMenu: {fileID: 0}
   interact: 102
 --- !u!1 &1033534838
 GameObject:

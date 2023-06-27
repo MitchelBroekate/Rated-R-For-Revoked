@@ -9,6 +9,7 @@ public class KeyMove : MonoBehaviour
     Vector3 moveDirection;
     Rigidbody rb;
 
+
     [Header("Move Controls")]
     public float walkSpeed;
     public float sprintSpeed;
@@ -79,6 +80,7 @@ public class KeyMove : MonoBehaviour
 
         if (state == MovementState.walking)
         {
+
             if (horMove != 0 || vertMove != 0)
             {
                 if (!walkSFX.isPlaying)
@@ -169,16 +171,19 @@ public class KeyMove : MonoBehaviour
     if (Input.GetKey(KeyCode.W))
         {
             rb.AddForce(transform.forward * moveSpeed);
-        }
+        } 
+
     if (Input.GetKey(KeyCode.S))
         {
             rb.AddForce(-transform.forward * moveSpeed);
         }
-    if (Input.GetKey(KeyCode.D))
+
+        if (Input.GetKey(KeyCode.D))
         {
             rb.AddForce(transform.right * moveSpeed);
         }
-    if (Input.GetKey(KeyCode.A))
+
+        if (Input.GetKey(KeyCode.A))
         {
             rb.AddForce(-transform.right * moveSpeed);
         }
