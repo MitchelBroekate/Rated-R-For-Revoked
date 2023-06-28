@@ -18,10 +18,8 @@ public class EnemyAI : MonoBehaviour
     float distanceToTarget;
     float slerpTime = 8;
 
-    //public Animator guard;
-
-    Coroutine detect;
-    Coroutine alert;
+    IEnumerator detect;
+    IEnumerator alert;
 
     public Vector3 playerDetection;
     private Vector3 playerPos;
@@ -71,15 +69,6 @@ public class EnemyAI : MonoBehaviour
         SetCheckGuardState(currentState);
         Vision();
 
-        //if (agent.isStopped == false)
-        //{
-        //    guard.SetBool("Walking", true);
-        //} 
-        //else
-        //{
-        //    guard.SetBool("Walking", false);
-        //}
-
     }
 
 
@@ -107,7 +96,7 @@ public class EnemyAI : MonoBehaviour
 
             case GuardStates.Caution:
 
-                alert = StartCoroutine(AlertState(1.5f));
+                alert = AlertState(0.1f);
 
                 break;
 
@@ -115,14 +104,14 @@ public class EnemyAI : MonoBehaviour
                     
                 if(distanceToTarget < viewRadius)
                 {
-                    alert = StartCoroutine(AlertState(3));
+                    alert = AlertState(3);
                     StopCoroutine(alert);
                 }
                 else
                 {
                     Debug.Log("hallo");
                     StopCoroutine(alert);
-                    detect = StartCoroutine(Detection(2));
+                    detect = Detection(2);
                 }
 
                 Debug.Log("Seen and waiting to move");
@@ -136,7 +125,6 @@ public class EnemyAI : MonoBehaviour
                 if (distanceToTarget <= 1)
                 {
                     agent.isStopped = true;
-                    //guard.SetTrigger("Attacking");
                     Quaternion LookOnLook = Quaternion.LookRotation(lookTowards.transform.position - transform.position);
                     transform.rotation = Quaternion.Slerp(transform.rotation, LookOnLook, Time.deltaTime * slerpTime);
                 } else
@@ -170,8 +158,8 @@ public class EnemyAI : MonoBehaviour
                 {
 
                     playerDetection = player.transform.position;
-                   // currentState = GuardStates.Seen;
-                    StartCoroutine(AlertState(3));
+                    currentState = GuardStates.Seen;
+                    StartCoroutine(alert);
 
                 }
 

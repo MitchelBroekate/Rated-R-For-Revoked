@@ -6,23 +6,22 @@ using TMPro;
 public class GunScript : MonoBehaviour
 {
     [Header("Links")]
-
     public Camera Cam;
-
     public Transform attackPoint;
     public GameObject bullet;
     public GameObject currentBullet;
-
-    public TextMeshProUGUI ammoDisplay;
-    public TextMeshProUGUI reloadDisplay;
-    public GameObject muzzleFlash;
-
+    public GameObject active;
     public Rigidbody playerRB;
 
-    public GameObject active;
+    [Header("UI")]
+    public TextMeshProUGUI ammoDisplay;
+    public TextMeshProUGUI reloadDisplay;
 
+    [Header("Effect")]
+    public GameObject muzzleFlash;
+
+    [Header("Audio")]
     public AudioSource source;
-
     public AudioClip gunShotClip;
     public AudioClip reloadClip;
 
@@ -33,8 +32,6 @@ public class GunScript : MonoBehaviour
     public float timeBetweenShooting, reloadTime, timeBetweenShots;
     public int magezineSize, bulletsTap;
     public bool allowButtonHold;
-
-    public float recoilForce;
 
     int bulletsLeft, bulletsShot;
 
@@ -135,8 +132,6 @@ public class GunScript : MonoBehaviour
         {
             Invoke("ResetShots", timeBetweenShooting);
             allowInvoke = false;
-
-            playerRB.AddForce(-DirectionBullet.normalized * recoilForce, ForceMode.Impulse);
         }
 
         if(bulletsShot < bulletsTap && bulletsLeft > 0) 
