@@ -12,7 +12,6 @@ public class SettingsMenuScript : MonoBehaviour
     public Slider musicSlider;
     public Slider sfxSlider;
     public Slider dialogueSlider;
-    public Slider sensSlider;
 
     [Header("Resolutions")]
     public TMPro.TMP_Dropdown resolutionDropdown;
