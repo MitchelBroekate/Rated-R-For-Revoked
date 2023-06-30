@@ -17589,6 +17589,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 437a32d5ebdf5394a8a37ff4dac7e5d8,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 437a32d5ebdf5394a8a37ff4dac7e5d8,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e69accd39cc6bda49ab1ac739e9c1cb9, type: 2}
@@ -43247,6 +43252,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 70ea77b03f083d442b4b9fbe78995da4,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70ea77b03f083d442b4b9fbe78995da4,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -54309,12 +54319,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 1ce83c04ca77dd7459a838d753ca12f3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.538
+      value: -1.64
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1ce83c04ca77dd7459a838d753ca12f3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.24
+      value: 0.166
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1ce83c04ca77dd7459a838d753ca12f3,
         type: 3}
@@ -66146,11 +66156,11 @@ MonoBehaviour:
   attackPoint: {fileID: 2140630280}
   bullet: {fileID: 1544141862}
   currentBullet: {fileID: 0}
+  active: {fileID: 1666644044}
+  playerRB: {fileID: 1522331036}
   ammoDisplay: {fileID: 33170888}
   reloadDisplay: {fileID: 263923777}
   muzzleFlash: {fileID: 1675016140}
-  playerRB: {fileID: 1522331036}
-  active: {fileID: 1666644044}
   source: {fileID: 1522331037}
   gunShotClip: {fileID: 8300000, guid: 903cc38cc01e1d541837b81a1817779d, type: 3}
   reloadClip: {fileID: 8300000, guid: 418cc86de09fa05408608c1c1dfd37fc, type: 3}
@@ -66161,7 +66171,6 @@ MonoBehaviour:
   magezineSize: 8
   bulletsTap: 1
   allowButtonHold: 1
-  recoilForce: 0
   allowInvoke: 0
 --- !u!4 &939214526
 Transform:
@@ -67308,6 +67317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cargo control room door (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 70ea77b03f083d442b4b9fbe78995da4,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 70ea77b03f083d442b4b9fbe78995da4,
         type: 3}
@@ -93981,7 +93995,7 @@ MonoBehaviour:
   horMove: 0
   vertMove: 0
   sensX: 0
-  playerHeight: 1.95
+  playerHeight: 1.85
   WhatIsGround:
     serializedVersion: 2
     m_Bits: 1024
@@ -94004,8 +94018,8 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: ec3a0b965860ccf4fbbb326c232fcd8d, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.6
-  m_Height: 1.75
+  m_Radius: 0.4
+  m_Height: 1.65
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!33 &1522331034
@@ -131672,7 +131686,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140630279}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.426, y: -0.2168, z: 0.947}
+  m_LocalPosition: {x: 0.4167, y: -0.3205, z: 0.8825}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
