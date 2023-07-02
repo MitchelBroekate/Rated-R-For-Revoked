@@ -8,6 +8,7 @@ public class KeyMove : MonoBehaviour
     private float moveSpeed;
     Vector3 moveDirection;
     Rigidbody rb;
+    public Animator animator;
 
 
     [Header("Move Controls")]
@@ -173,19 +174,24 @@ public class KeyMove : MonoBehaviour
             rb.AddForce(transform.forward * moveSpeed);
         } 
 
-    if (Input.GetKey(KeyCode.S))
+    else if (Input.GetKey(KeyCode.S))
         {
             rb.AddForce(-transform.forward * moveSpeed);
         }
 
-        if (Input.GetKey(KeyCode.D))
+    else if (Input.GetKey(KeyCode.D))
         {
             rb.AddForce(transform.right * moveSpeed);
         }
 
-        if (Input.GetKey(KeyCode.A))
+    else if (Input.GetKey(KeyCode.A))
         {
             rb.AddForce(-transform.right * moveSpeed);
+        }
+    
+    else 
+        {
+            
         }
 
     }

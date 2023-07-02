@@ -15,7 +15,6 @@ public class GunScript : MonoBehaviour
 
     [Header("UI")]
     public TextMeshProUGUI ammoDisplay;
-    public TextMeshProUGUI reloadDisplay;
 
     [Header("Effect")]
     public GameObject muzzleFlash;
@@ -54,7 +53,7 @@ public class GunScript : MonoBehaviour
         {
             if (reloading)
             {
-                reloadDisplay.SetText("Reloading...");
+                ammoDisplay.SetText("Reloading...");
             }
             else
             {
