@@ -6,7 +6,6 @@ using UnityEngine.Rendering;
 public class KeyMove : MonoBehaviour
 {
     private float moveSpeed;
-    Vector3 moveDirection;
     Rigidbody rb;
     public Animator animator;
 
@@ -172,26 +171,61 @@ public class KeyMove : MonoBehaviour
     if (Input.GetKey(KeyCode.W))
         {
             rb.AddForce(transform.forward * moveSpeed);
+
+            if (state == MovementState.sprinting)
+            {
+                animator.SetBool("Running", true);
+            }
+            else
+            {
+                animator.SetBool("Walking", true);
+            }
         } 
 
     else if (Input.GetKey(KeyCode.S))
         {
             rb.AddForce(-transform.forward * moveSpeed);
+
+            if (state == MovementState.sprinting)
+            {
+                animator.SetBool("Running", true);
+            }
+            else
+            {
+                animator.SetBool("Walking", true);
+            }
         }
 
     else if (Input.GetKey(KeyCode.D))
         {
             rb.AddForce(transform.right * moveSpeed);
+
+            if (state == MovementState.sprinting)
+            {
+                animator.SetBool("Running", true);
+            }
+            else
+            {
+                animator.SetBool("Walking", true);
+            }
         }
 
     else if (Input.GetKey(KeyCode.A))
         {
             rb.AddForce(-transform.right * moveSpeed);
+
+            if(state == MovementState.sprinting)
+            {
+                animator.SetBool("Running", true);
+            } else
+            {
+                animator.SetBool("Walking", true);
+            }
         }
-    
     else 
         {
-            
+            animator.SetBool("Walking", false);
+            animator.SetBool("Running", false);
         }
 
     }

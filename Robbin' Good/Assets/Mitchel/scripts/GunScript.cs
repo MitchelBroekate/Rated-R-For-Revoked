@@ -12,6 +12,7 @@ public class GunScript : MonoBehaviour
     public GameObject currentBullet;
     public GameObject active;
     public Rigidbody playerRB;
+    public Animator animator;
 
     [Header("UI")]
     public TextMeshProUGUI ammoDisplay;
