@@ -9,7 +9,6 @@ public class KeyMove : MonoBehaviour
     Rigidbody rb;
     public Animator animator;
 
-
     [Header("Move Controls")]
     public float walkSpeed;
     public float sprintSpeed;
@@ -147,7 +146,7 @@ public class KeyMove : MonoBehaviour
     private void StateHandeler()
     {
 
-        if(Input.GetKey(crouchKey))
+        if(Input.GetKeyDown(crouchKey))
         {
             state = MovementState.crouching;
             moveSpeed = crouchSpeed;
@@ -171,35 +170,25 @@ public class KeyMove : MonoBehaviour
     if (Input.GetKey(KeyCode.W))
         {
             rb.AddForce(transform.forward * moveSpeed);
-
-            if (state == MovementState.sprinting)
-            {
-                animator.SetBool("Running", true);
-            }
-            else
-            {
-                animator.SetBool("Walking", true);
-            }
         } 
 
-    else if (Input.GetKey(KeyCode.S))
+    if (Input.GetKey(KeyCode.S))
         {
             rb.AddForce(-transform.forward * moveSpeed);
-
-            if (state == MovementState.sprinting)
-            {
-                animator.SetBool("Running", true);
-            }
-            else
-            {
-                animator.SetBool("Walking", true);
-            }
         }
 
-    else if (Input.GetKey(KeyCode.D))
+    if (Input.GetKey(KeyCode.D))
         {
             rb.AddForce(transform.right * moveSpeed);
+        }
 
+    if (Input.GetKey(KeyCode.A))
+        {
+            rb.AddForce(-transform.right * moveSpeed);
+        }
+
+    if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
             if (state == MovementState.sprinting)
             {
                 animator.SetBool("Running", true);
@@ -209,23 +198,16 @@ public class KeyMove : MonoBehaviour
                 animator.SetBool("Walking", true);
             }
         }
-
-    else if (Input.GetKey(KeyCode.A))
+        else
         {
-            rb.AddForce(-transform.right * moveSpeed);
-
-            if(state == MovementState.sprinting)
+            if (state == MovementState.sprinting)
             {
-                animator.SetBool("Running", true);
-            } else
-            {
-                animator.SetBool("Walking", true);
+                animator.SetBool("Running", false);
             }
-        }
-    else 
-        {
-            animator.SetBool("Walking", false);
-            animator.SetBool("Running", false);
+            else
+            {
+                animator.SetBool("Walking", false);
+            }
         }
 
     }
