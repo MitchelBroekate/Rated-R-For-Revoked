@@ -11,6 +11,7 @@ public class CamMovement : MonoBehaviour
     public GameObject player;
     public Camera cam;
     private float targetFOV;
+    public Animator animator;
 
     private void Start()
     {
@@ -35,11 +36,13 @@ public class CamMovement : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Mouse1))
         {
+            animator.SetBool("Aiming", true);
             targetFOV = 75;
         } 
         
         else
         {
+            animator.SetBool("Aiming", false);
             targetFOV = 90;
         }
     }

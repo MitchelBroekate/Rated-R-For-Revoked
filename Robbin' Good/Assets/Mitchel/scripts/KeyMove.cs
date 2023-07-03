@@ -195,19 +195,13 @@ public class KeyMove : MonoBehaviour
             }
             else
             {
+                animator.SetBool("Running", false);
                 animator.SetBool("Walking", true);
             }
         }
         else
         {
-            if (state == MovementState.sprinting)
-            {
-                animator.SetBool("Running", false);
-            }
-            else
-            {
                 animator.SetBool("Walking", false);
-            }
         }
 
     }
