@@ -29366,7 +29366,7 @@ MonoBehaviour:
   sensX: 200
   player: {fileID: 1522331031}
   cam: {fileID: 330585545}
-  animator: {fileID: 0}
+  animator: {fileID: 1686359321}
 --- !u!114 &330585550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29381,7 +29381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactHUDText: {fileID: 175991787}
   pickUps: {fileID: 202036272}
-  gun: {fileID: 0}
+  gun: {fileID: 1686359320}
   hudUI: {fileID: 2051485214}
   pauseMenu: {fileID: 383223425}
   interact: 102
@@ -43772,6 +43772,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Jack Wileston
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1ce83c04ca77dd7459a838d753ca12f3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 1ce83c04ca77dd7459a838d753ca12f3,
         type: 3}
@@ -67969,9 +67974,9 @@ MonoBehaviour:
   attackPoint: {fileID: 2140630280}
   bullet: {fileID: 1544141862}
   currentBullet: {fileID: 0}
-  active: {fileID: 0}
+  active: {fileID: 1686359320}
   playerRB: {fileID: 1522331036}
-  animator: {fileID: 0}
+  animator: {fileID: 1686359321}
   ammoDisplay: {fileID: 33170888}
   muzzleFlash: {fileID: 1675016140}
   source: {fileID: 1522331037}
@@ -67997,8 +68002,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2140630280}
   - {fileID: 606193206}
+  - {fileID: 2140630280}
   m_Father: {fileID: 330585546}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -96932,7 +96937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ea167ad88b50c4c9fa4dd9fdf5345c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 1686359321}
   walkSpeed: 7
   sprintSpeed: 10
   groundDrag: 5
@@ -112969,6 +112974,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1686359320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1ce83c04ca77dd7459a838d753ca12f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 606193205}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1686359321 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 1ce83c04ca77dd7459a838d753ca12f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 606193205}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1689415088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135640,12 +135657,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140630279}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.41670036, y: -0.278, z: 0.809}
+  m_LocalPosition: {x: 0.41670036, y: -0.27800024, z: 0.8090003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 939214526}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2141667876
 GameObject:
