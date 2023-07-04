@@ -125,6 +125,13 @@ public class GunScript : MonoBehaviour
 
         bulletsLeft--;
         bulletsShot++;
+        if (!reloading)
+        {
+            animator.SetBool("Shooting", true);
+        } else
+        {
+            animator.SetBool("Shooting", false);
+        }
 
         source.PlayOneShot(gunShotClip);
 
@@ -144,12 +151,14 @@ public class GunScript : MonoBehaviour
     {
         readyToShoot = true;
         allowInvoke = true;
+        animator.SetBool("Shooting", false);
 
     }
 
     private void Reload()
     {
         reloading = true;
+        animator.SetBool("Reload", true);
         Invoke("ReloadDone", reloadTime);
 
         source.PlayOneShot(reloadClip);
@@ -159,5 +168,6 @@ public class GunScript : MonoBehaviour
     {
         bulletsLeft = magezineSize;
         reloading = false;
+        animator.SetBool("Reload", false);
     }
 }
