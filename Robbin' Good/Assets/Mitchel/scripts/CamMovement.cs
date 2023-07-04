@@ -37,13 +37,13 @@ public class CamMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Mouse1))
         {
             animator.SetBool("Aiming", true);
-            targetFOV = 75;
+            targetFOV = 60;
         } 
         
         else
         {
             animator.SetBool("Aiming", false);
-            targetFOV = 90;
+            targetFOV = 75;
         }
     }
 }
