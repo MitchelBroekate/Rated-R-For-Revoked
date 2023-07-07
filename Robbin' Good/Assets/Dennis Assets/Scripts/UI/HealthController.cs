@@ -74,7 +74,7 @@ public class HealthController : MonoBehaviour
 
     public void TakeDamage()
     {
-        if (currentHealth >= 0)
+        if (currentHealth > 0)
         {
             canRegen = false;
             StartCoroutine(HurtFlash());
