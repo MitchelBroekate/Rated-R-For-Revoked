@@ -10,7 +10,7 @@ public class Projectile : MonoBehaviour
     {
         if (collision.transform.GetComponent<HealthScript>()) 
         {
-            collision.transform.GetComponent<HealthScript>().DoDamg(damg);
+            collision.transform.GetComponent<HealthScript>().DoDamg(1);
         }
         Destroy(gameObject);
     }
