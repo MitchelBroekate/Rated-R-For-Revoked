@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthScript : MonoBehaviour
 {
-    public int hp = 4;
+    public int hp;
 
 
     public void DoDamg(int damgToDo)
