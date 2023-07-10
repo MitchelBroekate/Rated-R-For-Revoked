@@ -106,7 +106,6 @@ public class EnemyAI : MonoBehaviour
                     agent.isStopped = true;
                     Quaternion LookOnLook = Quaternion.LookRotation(lookTowards.transform.position - transform.position);
                     transform.rotation = Quaternion.Slerp(transform.rotation, LookOnLook, Time.deltaTime * slerpTime);
-                    player.transform.GetComponent<PlayerHealth>().playerHealth--; 
                 } else
                   {
                     agent.isStopped = false;
